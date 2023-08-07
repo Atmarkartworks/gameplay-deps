@@ -1,0 +1,163 @@
+{
+  "buildFiles": [
+    "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeLists.txt",
+    "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/CMakeLists.txt",
+    "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/base64-1.0.0/CMakeLists.txt",
+    "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/bullet-2.82-r2704/BulletConfig.cmake.in",
+    "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/bullet-2.82-r2704/CMakeLists.txt",
+    "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/bullet-2.82-r2704/bullet.pc.cmake",
+    "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/bullet-2.82-r2704/src/BulletCollision/CMakeLists.txt",
+    "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/bullet-2.82-r2704/src/BulletDynamics/CMakeLists.txt",
+    "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/bullet-2.82-r2704/src/CMakeLists.txt",
+    "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/bullet-2.82-r2704/src/LinearMath/CMakeLists.txt",
+    "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/libjson-7.6.1/CMakeLists.txt",
+    "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/libjson-7.6.1/_internal/Dependencies/CMakeLists.txt",
+    "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/libjson-7.6.1/_internal/Source/CMakeLists.txt",
+    "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/lua-5.2.3/CMakeLists.txt",
+    "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/lua-5.2.3/src/CMakeLists.txt",
+    "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/ogg-1.3.2/CMakeLists.txt",
+    "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/openal-1.16.0/CMakeLists.txt",
+    "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/openal-1.16.0/cmake/CheckSharedFunctionExists.cmake",
+    "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/openal-1.16.0/cmake/FindALSA.cmake",
+    "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/openal-1.16.0/cmake/FindAudioIO.cmake",
+    "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/openal-1.16.0/cmake/FindFluidSynth.cmake",
+    "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/openal-1.16.0/cmake/FindOSS.cmake",
+    "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/openal-1.16.0/cmake/FindPortAudio.cmake",
+    "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/openal-1.16.0/cmake/FindPulseAudio.cmake",
+    "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/openal-1.16.0/cmake/FindQSA.cmake",
+    "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/openal-1.16.0/cmake/FindSoundIO.cmake",
+    "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/png-1.6.15/CMakeLists.txt",
+    "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/tinyxml2-2.1.0/CMakeLists.txt",
+    "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/vorbis-1.3.4/CMakeLists.txt",
+    "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/zlib-1.2.8/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja",
+      "-C",
+      "/home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja",
+    "-C",
+    "/home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "BulletCollision::@b429e3b4498bec79accb": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "BulletCollision",
+      "output": "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/out/external-deps/lib/android/libBulletCollision.a"
+    },
+    "BulletDynamics::@6b7a111b3fe52ceebf4f": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "BulletDynamics",
+      "output": "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/out/external-deps/lib/android/libBulletDynamics.a"
+    },
+    "DATA_COPY::@a46c0a5b67ebfea0b565": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "DATA_COPY"
+    },
+    "LinearMath::@bfd59d7625411b26b451": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "LinearMath",
+      "output": "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/out/external-deps/lib/android/libLinearMath.a"
+    },
+    "base64::@57f6a9c86b31455bcf33": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "base64",
+      "output": "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/out/external-deps/lib/android/libbase64.a"
+    },
+    "gameplay-deps::@41f40c30d42861d4dae6": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "gameplay-deps"
+    },
+    "gameplaydeps::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "gameplaydeps",
+      "output": "/home/c3p/GP/gameplay-deps/gameplaydeps/build/intermediates/cxx/Debug/4e4z4v39/obj/arm64-v8a/libgameplaydeps.so",
+      "runtimeFiles": []
+    },
+    "json::@ce3ca7478f42990721d2": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "json",
+      "output": "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/out/external-deps/lib/android/libjson.a"
+    },
+    "lua::@63ded1b32b777f741507": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "lua",
+      "output": "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/out/external-deps/lib/android/liblua.a"
+    },
+    "ogg::@1c6b83ed75dbc6111c12": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "ogg",
+      "output": "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/out/external-deps/lib/android/libogg.a"
+    },
+    "openal::@90a6c4f17de9a7ef8124": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "openal",
+      "output": "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/out/external-deps/lib/android/libopenal.a"
+    },
+    "png_static::@e1be738c2be925ad8df4": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "png_static",
+      "output": "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/out/external-deps/lib/android/libpng.a"
+    },
+    "tinyxml2static::@a46c0a5b67ebfea0b565": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "tinyxml2static",
+      "output": "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/out/external-deps/lib/android/libtinyxml2.a"
+    },
+    "vorbis::@e150d622374918c78e62": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "vorbis",
+      "output": "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/out/external-deps/lib/android/libvorbis.a"
+    },
+    "vorbisenc::@e150d622374918c78e62": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "vorbisenc",
+      "output": "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/out/external-deps/lib/android/libvorbisenc.a"
+    },
+    "vorbisfile::@e150d622374918c78e62": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "vorbisfile",
+      "output": "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/out/external-deps/lib/android/libvorbisfile.a"
+    },
+    "zlibstatic::@6d2f036ae93037062e9d": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "zlibstatic",
+      "output": "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/out/external-deps/lib/android/libz.a"
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

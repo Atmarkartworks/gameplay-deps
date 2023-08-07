@@ -1,0 +1,19 @@
+                    -H/home/c3p/GP/gameplay-deps/app/src/main/cpp
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=23
+-DANDROID_PLATFORM=android-23
+-DANDROID_ABI=arm64-v8a
+-DCMAKE_ANDROID_ARCH_ABI=arm64-v8a
+-DANDROID_NDK=/home/c3p/Android/Sdk/ndk/23.1.7779620
+-DCMAKE_ANDROID_NDK=/home/c3p/Android/Sdk/ndk/23.1.7779620
+-DCMAKE_TOOLCHAIN_FILE=/home/c3p/Android/Sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja
+-DCMAKE_CXX_FLAGS=-std=c++14
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/c3p/GP/gameplay-deps/app/build/intermediates/cxx/Debug/294t5845/obj/arm64-v8a
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/home/c3p/GP/gameplay-deps/app/build/intermediates/cxx/Debug/294t5845/obj/arm64-v8a
+-DCMAKE_BUILD_TYPE=Debug
+-B/home/c3p/GP/gameplay-deps/app/.cxx/Debug/294t5845/arm64-v8a
+-GNinja
+                    Build command args: []
+                    Version: 2

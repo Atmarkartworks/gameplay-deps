@@ -1,48 +1,123 @@
-# For more information about using CMake with Android Studio, read the
-# documentation: https://d.android.com/studio/projects/add-native-code.html
+cmake_minimum_required(VERSION 2.8)
 
-# Sets the minimum version of CMake required to build the native library.
+project(GamePlay-deps)
 
-cmake_minimum_required(VERSION 3.18.1)
+IF(CMAKE_SYSTEM_NAME STREQUAL "Linux" AND NOT ANDROID)
+    SET(LINUX 1)
+ENDIF(CMAKE_SYSTEM_NAME STREQUAL "Linux" AND NOT ANDROID)
 
-# Declares and names the project.
+if(NOT ANDROID AND NOT IOS)
+    # Skip any introspection for cross-compiling targets
+    include(${PROJECT_SOURCE_DIR}/cmake/TargetArch.cmake)
 
-project("gameplaydeps")
+    set(ARCH "unknown")
+    target_architecture(ARCH)
+endif(NOT ANDROID AND NOT IOS)
 
-# Creates and names a library, sets it as either STATIC
-# or SHARED, and provides the relative paths to its source code.
-# You can define multiple libraries, and CMake builds them for you.
-# Gradle automatically packages shared libraries with your APK.
+set(CMAKE_INSTALL_PREFIX "${PROJECT_SOURCE_DIR}/out/external-deps")
 
-add_library( # Sets the name of the library.
-        gameplaydeps
+#if(NOT ANDROID AND NOT IOS)
+    # Android and iOS toolchains will set their own output path
+    IF(APPLE)
+        set(LIBRARY_OUTPUT_PATH "${PROJECT_SOURCE_DIR}/out/external-deps/lib/macosx/${ARCH}")
+    ELSE()
+        string(TOLOWER ${CMAKE_SYSTEM_NAME} LOWER_SYSTEM_NAME)
+        set(LIBRARY_OUTPUT_PATH "${PROJECT_SOURCE_DIR}/out/external-deps/lib/${LOWER_SYSTEM_NAME}/${ARCH}")
+    ENDIF(APPLE)
+#endif(NOT ANDROID AND NOT IOS)
 
-        # Sets the library as a shared library.
-        SHARED
+IF(NOT WIN32)
+    # For Windows, let the user pick since we need to generate both Debug and
+    # Release variants of all the libs.
+    SET(CMAKE_BUILD_TYPE "Release")
+ENDIF(NOT WIN32)
 
-        # Provides a relative path to your source file(s).
-        gameplaydeps.cpp)
+file(MAKE_DIRECTORY ${LIBRARY_OUTPUT_PATH})
+message(STATUS "Directory: ${LIBRARY_OUTPUT_PATH}")
 
-# Searches for a specified prebuilt library and stores the path as a
-# variable. Because CMake includes system libraries in the search path by
-# default, you only need to specify the name of the public NDK library
-# you want to add. CMake verifies that the library exists before
-# completing its build.
+add_subdirectory(libjson-7.6.1)
+add_subdirectory(tinyxml2-2.1.0)
+add_subdirectory(lua-5.2.3)
 
-find_library( # Sets the name of the path variable.
-        log-lib
+if (NOT APPLE)
+    add_subdirectory(openal-1.16.0)
+endif(NOT APPLE)
 
-        # Specifies the name of the NDK library that
-        # you want CMake to locate.
-        log)
+if (NOT APPLE AND NOT ANDROID)
+    add_subdirectory(glew-1.10.0)
+endif (NOT APPLE AND NOT ANDROID)
 
-# Specifies libraries CMake should link to your target library. You
-# can link multiple libraries, such as libraries you define in this
-# build script, prebuilt third-party libraries, or system libraries.
+# zlib must be built before png and curl
+add_subdirectory(zlib-1.2.8)
+add_subdirectory(png-1.6.15)
 
-target_link_libraries( # Specifies the target library.
-        gameplaydeps
+if(NOT WIN32 AND BUILD_EXTRA_LIBS)
+    add_subdirectory(curl-7.39.0)
+endif(NOT WIN32 AND BUILD_EXTRA_LIBS)
 
-        # Links the target library to the log library
-        # included in the NDK.
-        ${log-lib})
+# Ogg needs to be built before vorbis
+add_subdirectory(ogg-1.3.2)
+add_subdirectory(vorbis-1.3.4)
+
+add_subdirectory(bullet-2.82-r2704)
+add_subdirectory(base64-1.0.0)
+
+set(BUILD_TARGETS
+    BulletDynamics
+    LinearMath
+    BulletCollision
+    vorbisfile
+    vorbisenc
+    vorbis
+    ogg
+    png_static
+    zlibstatic
+    lua
+    tinyxml2static
+    json
+    base64
+)
+
+if (NOT APPLE)
+    list(APPEND BUILD_TARGETS GLEW)
+    IF(WIN32)
+        list(APPEND BUILD_TARGETS OpenAL32)
+    ELSE(WIN32)
+        list(APPEND BUILD_TARGETS openal)
+    ENDIF(WIN32)
+endif(NOT APPLE)
+
+IF(BUILD_EXTRA_LIBS)
+    if(NOT WIN32)
+        list(APPEND BUILD_TARGETS libcurl)
+    endif(NOT WIN32)
+ENDIF(BUILD_EXTRA_LIBS)
+
+if(WIN32)
+    set(GAMEPLAY_DEPS gameplay-deps.lib)
+else(WIN32)
+    set(GAMEPLAY_DEPS libgameplay-deps.a)
+endif(WIN32)
+
+if(LINUX OR ANDROID)
+    add_custom_command(
+        OUTPUT ${GAMEPLAY_DEPS}
+        COMMAND ${CMAKE_CURRENT_SOURCE_DIR}/cmake/gnu-amalgamate.sh ${CMAKE_AR} ${LIBRARY_OUTPUT_PATH}
+    )
+elseif(APPLE)
+    add_custom_command(
+        OUTPUT ${GAMEPLAY_DEPS}
+        COMMAND ${CMAKE_CURRENT_SOURCE_DIR}/cmake/xcode-amalgamate.sh ${LIBRARY_OUTPUT_PATH}
+    )
+else()
+    # Windows
+    add_custom_command(
+        OUTPUT ${GAMEPLAY_DEPS}
+	COMMAND ${CMAKE_CURRENT_SOURCE_DIR}/cmake/msvc-amalgamate.bat ${LIBRARY_OUTPUT_PATH}/${CMAKE_CFG_INTDIR}
+    )
+endif(LINUX OR ANDROID)
+
+add_custom_target(gameplay-deps ALL DEPENDS ${GAMEPLAY_DEPS})
+add_dependencies(gameplay-deps ${BUILD_TARGETS})
+
+SET_DIRECTORY_PROPERTIES(PROPERTIES ADDITIONAL_MAKE_CLEAN_FILES ${LIBRARY_OUTPUT_PATH}/${GAMEPLAY_DEPS})
