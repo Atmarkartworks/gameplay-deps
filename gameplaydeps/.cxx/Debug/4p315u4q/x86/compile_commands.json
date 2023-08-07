@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/c3p/AndroidStudioProjects/testdeps/gameplaydeps/.cxx/Debug/4p315u4q/x86",
+  "command": "/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android23 --gcc-toolchain=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dgameplaydeps_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles/gameplaydeps.dir/gameplaydeps.cpp.o -c /home/c3p/AndroidStudioProjects/testdeps/gameplaydeps/src/main/cpp/gameplaydeps.cpp",
+  "file": "/home/c3p/AndroidStudioProjects/testdeps/gameplaydeps/src/main/cpp/gameplaydeps.cpp"
+}
+]
