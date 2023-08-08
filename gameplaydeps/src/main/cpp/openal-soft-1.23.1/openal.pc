@@ -1,0 +1,12 @@
+prefix=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/out/external-deps
+exec_prefix=${prefix}
+libdir=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/out/external-deps/lib
+includedir=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/out/external-deps/include
+
+Name: OpenAL
+Description: OpenAL is a cross-platform 3D audio API
+Requires: 
+Version: 1.23.1
+Libs: -L${libdir} -lopenal 
+Libs.private:
+Cflags: -I${includedir} -I${includedir}/AL 

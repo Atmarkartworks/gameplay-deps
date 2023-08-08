@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../out/external-deps/lib/linux/x86_64/libex-common.a "CMakeFiles/ex-common.dir/examples/common/alhelpers.c.o"
+/usr/bin/ranlib ../out/external-deps/lib/linux/x86_64/libex-common.a

@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/c3p/GP/gameplay-deps/app/.cxx/Debug/4f483k2t/arm64-v8a",
-  "command": "/home/c3p/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android23 --sysroot=/home/c3p/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dtestdeps_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++14 -fno-limit-debug-info  -fPIC -o CMakeFiles/testdeps.dir/native-lib.cpp.o -c /home/c3p/GP/gameplay-deps/app/src/main/cpp/native-lib.cpp",
-  "file": "/home/c3p/GP/gameplay-deps/app/src/main/cpp/native-lib.cpp"
-}
-]

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../out/external-deps/lib/linux/x86_64/libogg.a CMakeFiles/ogg.dir/src/framing.c.o CMakeFiles/ogg.dir/src/bitwise.c.o
+/usr/bin/ranlib ../out/external-deps/lib/linux/x86_64/libogg.a

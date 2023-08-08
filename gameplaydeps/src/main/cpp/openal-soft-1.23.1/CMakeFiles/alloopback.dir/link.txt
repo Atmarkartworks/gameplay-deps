@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/alloopback.dir/examples/alloopback.c.o -o alloopback  -Wl,-rpath,/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/out/external-deps/lib/linux/x86_64: -pthread /usr/lib/x86_64-linux-gnu/libSDL2.so ../out/external-deps/lib/linux/x86_64/libex-common.a -lm ../out/external-deps/lib/linux/x86_64/libopenal.so.1.23.1 -lrt 

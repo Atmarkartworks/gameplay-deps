@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG "CMakeFiles/openal-info.dir/utils/openal-info.c.o" -o openal-info  -Wl,-rpath,/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/out/external-deps/lib/linux/x86_64: -pthread ../out/external-deps/lib/linux/x86_64/libopenal.so.1.23.1 

@@ -2,7 +2,6 @@ build/
 out/
 .cxx/
 .ide/
-cmake/
 *.swp
 .DS_Store
 

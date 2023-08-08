@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/c3p/GP/gameplay-deps/app/.cxx/Debug/294t5845/armeabi-v7a",
-  "command": "/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi23 --gcc-toolchain=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dtestdeps_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++14 -fno-limit-debug-info  -fPIC -o CMakeFiles/testdeps.dir/native-lib.cpp.o -c /home/c3p/GP/gameplay-deps/app/src/main/cpp/native-lib.cpp",
-  "file": "/home/c3p/GP/gameplay-deps/app/src/main/cpp/native-lib.cpp"
-}
-]

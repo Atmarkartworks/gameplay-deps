@@ -1,0 +1,13 @@
+prefix=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/out/external-deps
+exec_prefix=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/out/external-deps
+libdir=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/out/external-deps/lib
+sharedlibdir=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/out/external-deps/lib
+includedir=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/out/external-deps/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.8
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

@@ -1,3 +1,0 @@
-/home/c3p/AndroidStudioProjects/testdeps/app/.cxx/Debug/4w5jp5af/x86/CMakeFiles/rebuild_cache.dir
-/home/c3p/AndroidStudioProjects/testdeps/app/.cxx/Debug/4w5jp5af/x86/CMakeFiles/edit_cache.dir
-/home/c3p/AndroidStudioProjects/testdeps/app/.cxx/Debug/4w5jp5af/x86/CMakeFiles/testdeps.dir

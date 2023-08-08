@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../out/external-deps/lib/linux/x86_64/libtinyxml2.a CMakeFiles/tinyxml2static.dir/tinyxml2.cpp.o
+/usr/bin/ranlib ../out/external-deps/lib/linux/x86_64/libtinyxml2.a

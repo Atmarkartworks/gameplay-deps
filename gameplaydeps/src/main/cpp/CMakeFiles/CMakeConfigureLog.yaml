@@ -1,0 +1,1817 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Linux - 5.19.0-50-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/3.26.20230301-g8807292/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is Clang, found in:
+        /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/3.26.20230301-g8807292/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-CDdUOR"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-CDdUOR"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-CDdUOR
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8b255/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8b255.dir/build.make CMakeFiles/cmTC_8b255.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-CDdUOR'
+        Building C object CMakeFiles/cmTC_8b255.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_8b255.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.26/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8b255.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8b255.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_8b255.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccKI2tI0.s
+        GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/11/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 50eaa2331df977b8016186198deb2d18
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8b255.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8b255.dir/'
+         as -v --64 -o CMakeFiles/cmTC_8b255.dir/CMakeCCompilerABI.c.o /tmp/ccKI2tI0.s
+        GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8b255.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8b255.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_8b255
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b255.dir/link.txt --verbose=1
+        /usr/bin/cc  -v CMakeFiles/cmTC_8b255.dir/CMakeCCompilerABI.c.o -o cmTC_8b255 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8b255' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8b255.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHZuQ5t.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8b255 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_8b255.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8b255' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8b255.'
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-CDdUOR'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-CDdUOR]
+        ignore line: []
+        ignore line: [Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8b255/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8b255.dir/build.make CMakeFiles/cmTC_8b255.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-CDdUOR']
+        ignore line: [Building C object CMakeFiles/cmTC_8b255.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_8b255.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8b255.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8b255.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_8b255.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccKI2tI0.s]
+        ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 50eaa2331df977b8016186198deb2d18]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8b255.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8b255.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_8b255.dir/CMakeCCompilerABI.c.o /tmp/ccKI2tI0.s]
+        ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8b255.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8b255.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_8b255]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b255.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_8b255.dir/CMakeCCompilerABI.c.o -o cmTC_8b255 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8b255' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8b255.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHZuQ5t.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8b255 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_8b255.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccHZuQ5t.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_8b255] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+          arg [CMakeFiles/cmTC_8b255.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-ke0t5Q"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-ke0t5Q"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-ke0t5Q
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d056c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d056c.dir/build.make CMakeFiles/cmTC_d056c.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-ke0t5Q'
+        Building CXX object CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -MD -MT CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        Ubuntu clang version 14.0.0-1ubuntu1.1
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/bin
+        Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+        Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/9
+        Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+        Candidate multilib: .;@m64
+        Candidate multilib: 32;@m32
+        Candidate multilib: x32;@mx32
+        Selected multilib: .;@m64
+         (in-process)
+         "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-ke0t5Q -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-ke0t5Q -ferror-limit 19 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 14.0.0 based upon LLVM 14.0.0 default target x86_64-pc-linux-gnu
+        ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+        ignoring nonexistent directory "/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11
+         /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11
+         /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward
+         /usr/lib/llvm-14/lib/clang/14.0.0/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Linking CXX executable cmTC_d056c
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d056c.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d056c 
+        Ubuntu clang version 14.0.0-1ubuntu1.1
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/bin
+        Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+        Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/9
+        Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11
+        Candidate multilib: .;@m64
+        Candidate multilib: 32;@m32
+        Candidate multilib: x32;@mx32
+        Selected multilib: .;@m64
+         "/usr/bin/ld" -pie -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d056c /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/11 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/llvm-14/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/11/crtendS.o /lib/x86_64-linux-gnu/crtn.o
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-ke0t5Q'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11]
+          add: [/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11]
+          add: [/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward]
+          add: [/usr/lib/llvm-14/lib/clang/14.0.0/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11] ==> [/usr/include/c++/11]
+        collapse include dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11] ==> [/usr/include/x86_64-linux-gnu/c++/11]
+        collapse include dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+        collapse include dir [/usr/lib/llvm-14/lib/clang/14.0.0/include] ==> [/usr/lib/llvm-14/lib/clang/14.0.0/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/llvm-14/lib/clang/14.0.0/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-ke0t5Q]
+        ignore line: []
+        ignore line: [Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d056c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d056c.dir/build.make CMakeFiles/cmTC_d056c.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-ke0t5Q']
+        ignore line: [Building CXX object CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -MD -MT CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Ubuntu clang version 14.0.0-1ubuntu1.1]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /usr/bin]
+        ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11]
+        ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/9]
+        ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Candidate multilib: 32]
+        ignore line: [@m32]
+        ignore line: [Candidate multilib: x32]
+        ignore line: [@mx32]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/usr/lib/llvm-14/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-ke0t5Q -resource-dir /usr/lib/llvm-14/lib/clang/14.0.0 -dependency-file CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11 -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward -internal-isystem /usr/lib/llvm-14/lib/clang/14.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-ke0t5Q -ferror-limit 19 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 14.0.0 based upon LLVM 14.0.0 default target x86_64-pc-linux-gnu]
+        ignore line: [ignoring nonexistent directory "/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+        ignore line: [ignoring nonexistent directory "/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11]
+        ignore line: [ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11]
+        ignore line: [ /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward]
+        ignore line: [ /usr/lib/llvm-14/lib/clang/14.0.0/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_d056c]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d056c.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d056c ]
+        ignore line: [Ubuntu clang version 14.0.0-1ubuntu1.1]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /usr/bin]
+        ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11]
+        ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/9]
+        ignore line: [Selected GCC installation: /usr/bin/../lib/gcc/x86_64-linux-gnu/11]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Candidate multilib: 32]
+        ignore line: [@m32]
+        ignore line: [Candidate multilib: x32]
+        ignore line: [@mx32]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/usr/bin/ld" -pie -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d056c /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/bin/../lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/bin/../lib/gcc/x86_64-linux-gnu/11 -L/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/llvm-14/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib/gcc/x86_64-linux-gnu/11/crtendS.o /lib/x86_64-linux-gnu/crtn.o]
+          arg [/usr/bin/ld] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_d056c] ==> ignore
+          arg [/lib/x86_64-linux-gnu/Scrt1.o] ==> obj [/lib/x86_64-linux-gnu/Scrt1.o]
+          arg [/lib/x86_64-linux-gnu/crti.o] ==> obj [/lib/x86_64-linux-gnu/crti.o]
+          arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+          arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/11]
+          arg [-L/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../lib64] ==> dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../lib64]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/usr/lib/llvm-14/bin/../lib] ==> dir [/usr/lib/llvm-14/bin/../lib]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [CMakeFiles/cmTC_d056c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/bin/../lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+          arg [/lib/x86_64-linux-gnu/crtn.o] ==> obj [/lib/x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+        collapse obj [/usr/bin/../lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+        collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+        collapse library dir [/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/lib/llvm-14/bin/../lib] ==> [/usr/lib/llvm-14/lib]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/lib/x86_64-linux-gnu/Scrt1.o;/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/lib/x86_64-linux-gnu;/usr/lib/llvm-14/lib;/lib;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "cmake/TargetArch.cmake:110 (try_run)"
+      - "CMakeLists.txt:15 (target_architecture)"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeTmp"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "compile_result_unused"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeTmp
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5e673/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5e673.dir/build.make CMakeFiles/cmTC_5e673.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_5e673.dir/arch.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_5e673.dir/arch.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/arch.c
+        /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/arch.c:27:6: error: #error cmake_ARCH x86_64
+           27 |     #error cmake_ARCH x86_64
+              |      ^~~~~
+        /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/arch.c:40:2: error: #error cmake_ARCH unknown
+           40 | #error cmake_ARCH unknown
+              |  ^~~~~
+        gmake[1]: *** [CMakeFiles/cmTC_5e673.dir/build.make:78: CMakeFiles/cmTC_5e673.dir/arch.c.o] Error 1
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_5e673/fast] Error 2
+        
+      exitCode: 2
+    runResult:
+      variable: "run_result_unused"
+      cached: true
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "openal-soft-1.23.1/CMakeLists.txt:191 (check_symbol_exists)"
+    checks:
+      - "Looking for posix_memalign"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-Fnz6he"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-Fnz6he"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/openal-soft-1.23.1/cmake"
+    buildResult:
+      variable: "HAVE_POSIX_MEMALIGN_DEFAULT"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-Fnz6he
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c993f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c993f.dir/build.make CMakeFiles/cmTC_c993f.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-Fnz6he'
+        Building C object CMakeFiles/cmTC_c993f.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_c993f.dir/CheckSymbolExists.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-Fnz6he/CheckSymbolExists.c
+        Linking C executable cmTC_c993f
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c993f.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_c993f.dir/CheckSymbolExists.c.o -o cmTC_c993f 
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-Fnz6he'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "openal-soft-1.23.1/CMakeLists.txt:206 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test HAVE___RESTRICT"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-AK46vf"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-AK46vf"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/openal-soft-1.23.1/cmake"
+    buildResult:
+      variable: "HAVE___RESTRICT"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-AK46vf
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2e570/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2e570.dir/build.make CMakeFiles/cmTC_2e570.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-AK46vf'
+        Building CXX object CMakeFiles/cmTC_2e570.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE___RESTRICT   -MD -MT CMakeFiles/cmTC_2e570.dir/src.cxx.o -MF CMakeFiles/cmTC_2e570.dir/src.cxx.o.d -o CMakeFiles/cmTC_2e570.dir/src.cxx.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-AK46vf/src.cxx
+        Linking CXX executable cmTC_2e570
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e570.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_2e570.dir/src.cxx.o -o cmTC_2e570 
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-AK46vf'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "openal-soft-1.23.1/CMakeLists.txt:217 (check_cxx_source_compiles)"
+    checks:
+      - "Performing Test HAVE_LIBATOMIC"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-YH7z1l"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-YH7z1l"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/openal-soft-1.23.1/cmake"
+    buildResult:
+      variable: "HAVE_LIBATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-YH7z1l
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b51ce/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b51ce.dir/build.make CMakeFiles/cmTC_b51ce.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-YH7z1l'
+        Building CXX object CMakeFiles/cmTC_b51ce.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_LIBATOMIC   -MD -MT CMakeFiles/cmTC_b51ce.dir/src.cxx.o -MF CMakeFiles/cmTC_b51ce.dir/src.cxx.o.d -o CMakeFiles/cmTC_b51ce.dir/src.cxx.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-YH7z1l/src.cxx
+        Linking CXX executable cmTC_b51ce
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b51ce.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_b51ce.dir/src.cxx.o -o cmTC_b51ce  -latomic 
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-YH7z1l'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "openal-soft-1.23.1/CMakeLists.txt:271 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_WNO_CXX20_ATTR_EXT"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-1DbmxG"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-1DbmxG"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/openal-soft-1.23.1/cmake"
+    buildResult:
+      variable: "HAVE_WNO_CXX20_ATTR_EXT"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-1DbmxG
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_779fa/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_779fa.dir/build.make CMakeFiles/cmTC_779fa.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-1DbmxG'
+        Building CXX object CMakeFiles/cmTC_779fa.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_WNO_CXX20_ATTR_EXT  -Wno-c++20-attribute-extensions -MD -MT CMakeFiles/cmTC_779fa.dir/src.cxx.o -MF CMakeFiles/cmTC_779fa.dir/src.cxx.o.d -o CMakeFiles/cmTC_779fa.dir/src.cxx.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-1DbmxG/src.cxx
+        Linking CXX executable cmTC_779fa
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_779fa.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_779fa.dir/src.cxx.o -o cmTC_779fa  -latomic 
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-1DbmxG'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "openal-soft-1.23.1/CMakeLists.txt:293 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_FNO_MATH_ERRNO"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-dkJat8"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-dkJat8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/openal-soft-1.23.1/cmake"
+    buildResult:
+      variable: "HAVE_FNO_MATH_ERRNO"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-dkJat8
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6f46c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6f46c.dir/build.make CMakeFiles/cmTC_6f46c.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-dkJat8'
+        Building C object CMakeFiles/cmTC_6f46c.dir/src.c.o
+        /usr/bin/cc -DHAVE_FNO_MATH_ERRNO  -fno-math-errno -o CMakeFiles/cmTC_6f46c.dir/src.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-dkJat8/src.c
+        Linking C executable cmTC_6f46c
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f46c.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_6f46c.dir/src.c.o -o cmTC_6f46c  -latomic 
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-dkJat8'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "openal-soft-1.23.1/CMakeLists.txt:353 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_GCC_PROTECTED_VISIBILITY"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-riDToN"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-riDToN"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/openal-soft-1.23.1/cmake"
+    buildResult:
+      variable: "HAVE_GCC_PROTECTED_VISIBILITY"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-riDToN
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e0808/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e0808.dir/build.make CMakeFiles/cmTC_e0808.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-riDToN'
+        Building C object CMakeFiles/cmTC_e0808.dir/src.c.o
+        /usr/bin/cc -DHAVE_GCC_PROTECTED_VISIBILITY  -Wattributes -Werror -o CMakeFiles/cmTC_e0808.dir/src.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-riDToN/src.c
+        Linking C executable cmTC_e0808
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0808.dir/link.txt --verbose=1
+        /usr/bin/cc   -Wattributes -Werror CMakeFiles/cmTC_e0808.dir/src.c.o -o cmTC_e0808  -latomic 
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-riDToN'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "openal-soft-1.23.1/CMakeLists.txt:379 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_MSSE2_SWITCH"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-6e2elr"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-6e2elr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/openal-soft-1.23.1/cmake"
+    buildResult:
+      variable: "HAVE_MSSE2_SWITCH"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-6e2elr
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9ed36/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9ed36.dir/build.make CMakeFiles/cmTC_9ed36.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-6e2elr'
+        Building C object CMakeFiles/cmTC_9ed36.dir/src.c.o
+        /usr/bin/cc -DHAVE_MSSE2_SWITCH  -Werror   -msse2 -o CMakeFiles/cmTC_9ed36.dir/src.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-6e2elr/src.c
+        Linking C executable cmTC_9ed36
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ed36.dir/link.txt --verbose=1
+        /usr/bin/cc   -Werror CMakeFiles/cmTC_9ed36.dir/src.c.o -o cmTC_9ed36  -latomic 
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-6e2elr'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "openal-soft-1.23.1/CMakeLists.txt:387 (check_include_file)"
+    checks:
+      - "Looking for xmmintrin.h"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-9X5pZB"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-9X5pZB"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/openal-soft-1.23.1/cmake"
+    buildResult:
+      variable: "HAVE_XMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-9X5pZB
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6e74b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6e74b.dir/build.make CMakeFiles/cmTC_6e74b.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-9X5pZB'
+        Building C object CMakeFiles/cmTC_6e74b.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_6e74b.dir/CheckIncludeFile.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-9X5pZB/CheckIncludeFile.c
+        Linking C executable cmTC_6e74b
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e74b.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_6e74b.dir/CheckIncludeFile.c.o -o cmTC_6e74b  -latomic 
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-9X5pZB'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "openal-soft-1.23.1/CMakeLists.txt:388 (check_include_file)"
+    checks:
+      - "Looking for emmintrin.h"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-8MY1N7"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-8MY1N7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/openal-soft-1.23.1/cmake"
+    buildResult:
+      variable: "HAVE_EMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-8MY1N7
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_338a7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_338a7.dir/build.make CMakeFiles/cmTC_338a7.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-8MY1N7'
+        Building C object CMakeFiles/cmTC_338a7.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_338a7.dir/CheckIncludeFile.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-8MY1N7/CheckIncludeFile.c
+        Linking C executable cmTC_338a7
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_338a7.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_338a7.dir/CheckIncludeFile.c.o -o cmTC_338a7  -latomic 
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-8MY1N7'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "openal-soft-1.23.1/CMakeLists.txt:389 (check_include_file)"
+    checks:
+      - "Looking for pmmintrin.h"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-39PUUR"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-39PUUR"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/openal-soft-1.23.1/cmake"
+    buildResult:
+      variable: "HAVE_PMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-39PUUR
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_07a3e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_07a3e.dir/build.make CMakeFiles/cmTC_07a3e.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-39PUUR'
+        Building C object CMakeFiles/cmTC_07a3e.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_07a3e.dir/CheckIncludeFile.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-39PUUR/CheckIncludeFile.c
+        Linking C executable cmTC_07a3e
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07a3e.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_07a3e.dir/CheckIncludeFile.c.o -o cmTC_07a3e  -latomic 
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-39PUUR'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "openal-soft-1.23.1/CMakeLists.txt:390 (check_include_file)"
+    checks:
+      - "Looking for smmintrin.h"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-KoQGA8"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-KoQGA8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/openal-soft-1.23.1/cmake"
+    buildResult:
+      variable: "HAVE_SMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-KoQGA8
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2d409/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2d409.dir/build.make CMakeFiles/cmTC_2d409.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-KoQGA8'
+        Building C object CMakeFiles/cmTC_2d409.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_2d409.dir/CheckIncludeFile.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-KoQGA8/CheckIncludeFile.c
+        Linking C executable cmTC_2d409
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d409.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_2d409.dir/CheckIncludeFile.c.o -o cmTC_2d409  -latomic 
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-KoQGA8'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "openal-soft-1.23.1/CMakeLists.txt:391 (check_include_file)"
+    checks:
+      - "Looking for arm_neon.h"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-iAiDUh"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-iAiDUh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/openal-soft-1.23.1/cmake"
+    buildResult:
+      variable: "HAVE_ARM_NEON_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-iAiDUh
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3329d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3329d.dir/build.make CMakeFiles/cmTC_3329d.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-iAiDUh'
+        Building C object CMakeFiles/cmTC_3329d.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_3329d.dir/CheckIncludeFile.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-iAiDUh/CheckIncludeFile.c
+        /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-iAiDUh/CheckIncludeFile.c:1:10: fatal error: arm_neon.h: No such file or directory
+            1 | #include <arm_neon.h>
+              |          ^~~~~~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_3329d.dir/build.make:78: CMakeFiles/cmTC_3329d.dir/CheckIncludeFile.c.o] Error 1
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-iAiDUh'
+        gmake: *** [Makefile:127: cmTC_3329d/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "openal-soft-1.23.1/CMakeLists.txt:489 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_SSE_INTRINSICS"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-vlNSus"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-vlNSus"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/openal-soft-1.23.1/cmake"
+    buildResult:
+      variable: "HAVE_SSE_INTRINSICS"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-vlNSus
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d57ab/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d57ab.dir/build.make CMakeFiles/cmTC_d57ab.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-vlNSus'
+        Building C object CMakeFiles/cmTC_d57ab.dir/src.c.o
+        /usr/bin/cc -DHAVE_SSE_INTRINSICS   -o CMakeFiles/cmTC_d57ab.dir/src.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-vlNSus/src.c
+        Linking C executable cmTC_d57ab
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d57ab.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_d57ab.dir/src.c.o -o cmTC_d57ab  -latomic 
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-vlNSus'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "openal-soft-1.23.1/CMakeLists.txt:496 (check_include_file)"
+    checks:
+      - "Looking for malloc.h"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-SHVqSw"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-SHVqSw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/openal-soft-1.23.1/cmake"
+    buildResult:
+      variable: "HAVE_MALLOC_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-SHVqSw
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7afb0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7afb0.dir/build.make CMakeFiles/cmTC_7afb0.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-SHVqSw'
+        Building C object CMakeFiles/cmTC_7afb0.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_7afb0.dir/CheckIncludeFile.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-SHVqSw/CheckIncludeFile.c
+        Linking C executable cmTC_7afb0
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7afb0.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_7afb0.dir/CheckIncludeFile.c.o -o cmTC_7afb0  -latomic 
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-SHVqSw'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "openal-soft-1.23.1/CMakeLists.txt:497 (check_include_file)"
+    checks:
+      - "Looking for cpuid.h"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-B7qvmx"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-B7qvmx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/openal-soft-1.23.1/cmake"
+    buildResult:
+      variable: "HAVE_CPUID_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-B7qvmx
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d58b1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d58b1.dir/build.make CMakeFiles/cmTC_d58b1.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-B7qvmx'
+        Building C object CMakeFiles/cmTC_d58b1.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_d58b1.dir/CheckIncludeFile.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-B7qvmx/CheckIncludeFile.c
+        Linking C executable cmTC_d58b1
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d58b1.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_d58b1.dir/CheckIncludeFile.c.o -o cmTC_d58b1  -latomic 
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-B7qvmx'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "openal-soft-1.23.1/CMakeLists.txt:498 (check_include_file)"
+    checks:
+      - "Looking for intrin.h"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-lqWFH0"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-lqWFH0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/openal-soft-1.23.1/cmake"
+    buildResult:
+      variable: "HAVE_INTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-lqWFH0
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6db05/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6db05.dir/build.make CMakeFiles/cmTC_6db05.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-lqWFH0'
+        Building C object CMakeFiles/cmTC_6db05.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_6db05.dir/CheckIncludeFile.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-lqWFH0/CheckIncludeFile.c
+        /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-lqWFH0/CheckIncludeFile.c:1:10: fatal error: intrin.h: No such file or directory
+            1 | #include <intrin.h>
+              |          ^~~~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_6db05.dir/build.make:78: CMakeFiles/cmTC_6db05.dir/CheckIncludeFile.c.o] Error 1
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-lqWFH0'
+        gmake: *** [Makefile:127: cmTC_6db05/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "openal-soft-1.23.1/CMakeLists.txt:499 (check_include_file)"
+    checks:
+      - "Looking for guiddef.h"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-chUJGI"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-chUJGI"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/openal-soft-1.23.1/cmake"
+    buildResult:
+      variable: "HAVE_GUIDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-chUJGI
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f3370/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f3370.dir/build.make CMakeFiles/cmTC_f3370.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-chUJGI'
+        Building C object CMakeFiles/cmTC_f3370.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_f3370.dir/CheckIncludeFile.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-chUJGI/CheckIncludeFile.c
+        /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-chUJGI/CheckIncludeFile.c:1:10: fatal error: guiddef.h: No such file or directory
+            1 | #include <guiddef.h>
+              |          ^~~~~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_f3370.dir/build.make:78: CMakeFiles/cmTC_f3370.dir/CheckIncludeFile.c.o] Error 1
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-chUJGI'
+        gmake: *** [Makefile:127: cmTC_f3370/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "openal-soft-1.23.1/CMakeLists.txt:501 (check_include_file)"
+    checks:
+      - "Looking for initguid.h"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-y3rxLG"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-y3rxLG"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/openal-soft-1.23.1/cmake"
+    buildResult:
+      variable: "HAVE_INITGUID_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-y3rxLG
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1705e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1705e.dir/build.make CMakeFiles/cmTC_1705e.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-y3rxLG'
+        Building C object CMakeFiles/cmTC_1705e.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_1705e.dir/CheckIncludeFile.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-y3rxLG/CheckIncludeFile.c
+        /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-y3rxLG/CheckIncludeFile.c:1:10: fatal error: initguid.h: No such file or directory
+            1 | #include <initguid.h>
+              |          ^~~~~~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_1705e.dir/build.make:78: CMakeFiles/cmTC_1705e.dir/CheckIncludeFile.c.o] Error 1
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-y3rxLG'
+        gmake: *** [Makefile:127: cmTC_1705e/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "openal-soft-1.23.1/CMakeLists.txt:506 (check_library_exists)"
+    checks:
+      - "Looking for pow in m"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-n5E1R1"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-n5E1R1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/openal-soft-1.23.1/cmake"
+    buildResult:
+      variable: "HAVE_LIBM"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-n5E1R1
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9ab5f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9ab5f.dir/build.make CMakeFiles/cmTC_9ab5f.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-n5E1R1'
+        Building C object CMakeFiles/cmTC_9ab5f.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pow -o CMakeFiles/cmTC_9ab5f.dir/CheckFunctionExists.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-n5E1R1/CheckFunctionExists.c
+        <command-line>: warning: conflicting types for built-in function ‘pow’; expected ‘double(double,  double)’ [-Wbuiltin-declaration-mismatch]
+        /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-n5E1R1/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+            7 |   CHECK_FUNCTION_EXISTS(void);
+              |   ^~~~~~~~~~~~~~~~~~~~~
+        /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-n5E1R1/CheckFunctionExists.c:1:1: note: ‘pow’ is declared in header ‘<math.h>’
+          +++ |+#include <math.h>
+            1 | #ifdef CHECK_FUNCTION_EXISTS
+        Linking C executable cmTC_9ab5f
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ab5f.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pow CMakeFiles/cmTC_9ab5f.dir/CheckFunctionExists.c.o -o cmTC_9ab5f  -lm -latomic 
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-n5E1R1'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "openal-soft-1.23.1/CMakeLists.txt:515 (check_library_exists)"
+    checks:
+      - "Looking for clock_gettime in rt"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-5zi27n"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-5zi27n"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/openal-soft-1.23.1/cmake"
+    buildResult:
+      variable: "HAVE_LIBRT"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-5zi27n
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a64b9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a64b9.dir/build.make CMakeFiles/cmTC_a64b9.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-5zi27n'
+        Building C object CMakeFiles/cmTC_a64b9.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime -o CMakeFiles/cmTC_a64b9.dir/CheckFunctionExists.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-5zi27n/CheckFunctionExists.c
+        Linking C executable cmTC_a64b9
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a64b9.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_gettime CMakeFiles/cmTC_a64b9.dir/CheckFunctionExists.c.o -o cmTC_a64b9  -lrt -latomic -lm 
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-5zi27n'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "openal-soft-1.23.1/CMakeLists.txt:522 (check_include_file)"
+    checks:
+      - "Looking for dlfcn.h"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-G52WPo"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-G52WPo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/openal-soft-1.23.1/cmake"
+    buildResult:
+      variable: "HAVE_DLFCN_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-G52WPo
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6b36f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6b36f.dir/build.make CMakeFiles/cmTC_6b36f.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-G52WPo'
+        Building C object CMakeFiles/cmTC_6b36f.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_6b36f.dir/CheckIncludeFile.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-G52WPo/CheckIncludeFile.c
+        Linking C executable cmTC_6b36f
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b36f.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_6b36f.dir/CheckIncludeFile.c.o -o cmTC_6b36f  -latomic -lm 
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-G52WPo'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "openal-soft-1.23.1/CMakeLists.txt:523 (check_library_exists)"
+    checks:
+      - "Looking for dlopen in dl"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-mfUyBL"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-mfUyBL"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/openal-soft-1.23.1/cmake"
+    buildResult:
+      variable: "HAVE_LIBDL"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-mfUyBL
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_84d16/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_84d16.dir/build.make CMakeFiles/cmTC_84d16.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-mfUyBL'
+        Building C object CMakeFiles/cmTC_84d16.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dlopen -o CMakeFiles/cmTC_84d16.dir/CheckFunctionExists.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-mfUyBL/CheckFunctionExists.c
+        Linking C executable cmTC_84d16
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84d16.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dlopen CMakeFiles/cmTC_84d16.dir/CheckFunctionExists.c.o -o cmTC_84d16  -ldl -latomic -lm 
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-mfUyBL'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "openal-soft-1.23.1/CMakeLists.txt:532 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_GCC_GET_CPUID"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-lqFeaG"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-lqFeaG"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/openal-soft-1.23.1/cmake"
+    buildResult:
+      variable: "HAVE_GCC_GET_CPUID"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-lqFeaG
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c21de/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c21de.dir/build.make CMakeFiles/cmTC_c21de.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-lqFeaG'
+        Building C object CMakeFiles/cmTC_c21de.dir/src.c.o
+        /usr/bin/cc -DHAVE_GCC_GET_CPUID   -o CMakeFiles/cmTC_c21de.dir/src.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-lqFeaG/src.c
+        Linking C executable cmTC_c21de
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c21de.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_c21de.dir/src.c.o -o cmTC_c21de  -latomic -lm -ldl 
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-lqFeaG'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "openal-soft-1.23.1/CMakeLists.txt:549 (check_symbol_exists)"
+    checks:
+      - "Looking for posix_memalign"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-Q4oVFZ"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-Q4oVFZ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/openal-soft-1.23.1/cmake"
+    buildResult:
+      variable: "HAVE_POSIX_MEMALIGN"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-Q4oVFZ
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6a816/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6a816.dir/build.make CMakeFiles/cmTC_6a816.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-Q4oVFZ'
+        Building C object CMakeFiles/cmTC_6a816.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_6a816.dir/CheckSymbolExists.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-Q4oVFZ/CheckSymbolExists.c
+        Linking C executable cmTC_6a816
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a816.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_6a816.dir/CheckSymbolExists.c.o -o cmTC_6a816  -latomic -lm -ldl 
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-Q4oVFZ'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "openal-soft-1.23.1/CMakeLists.txt:550 (check_symbol_exists)"
+    checks:
+      - "Looking for _aligned_malloc"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-x8TEWT"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-x8TEWT"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/openal-soft-1.23.1/cmake"
+    buildResult:
+      variable: "HAVE__ALIGNED_MALLOC"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-x8TEWT
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_efe76/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_efe76.dir/build.make CMakeFiles/cmTC_efe76.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-x8TEWT'
+        Building C object CMakeFiles/cmTC_efe76.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_efe76.dir/CheckSymbolExists.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-x8TEWT/CheckSymbolExists.c
+        /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-x8TEWT/CheckSymbolExists.c: In function ‘main’:
+        /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-x8TEWT/CheckSymbolExists.c:8:19: error: ‘_aligned_malloc’ undeclared (first use in this function)
+            8 |   return ((int*)(&_aligned_malloc))[argc];
+              |                   ^~~~~~~~~~~~~~~
+        /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-x8TEWT/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+        gmake[1]: *** [CMakeFiles/cmTC_efe76.dir/build.make:78: CMakeFiles/cmTC_efe76.dir/CheckSymbolExists.c.o] Error 1
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-x8TEWT'
+        gmake: *** [Makefile:127: cmTC_efe76/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "openal-soft-1.23.1/CMakeLists.txt:551 (check_symbol_exists)"
+    checks:
+      - "Looking for proc_pidpath"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-OQePXS"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-OQePXS"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/openal-soft-1.23.1/cmake"
+    buildResult:
+      variable: "HAVE_PROC_PIDPATH"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-OQePXS
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d4c3d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d4c3d.dir/build.make CMakeFiles/cmTC_d4c3d.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-OQePXS'
+        Building C object CMakeFiles/cmTC_d4c3d.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_d4c3d.dir/CheckSymbolExists.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-OQePXS/CheckSymbolExists.c
+        /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-OQePXS/CheckSymbolExists.c:2:10: fatal error: libproc.h: No such file or directory
+            2 | #include <libproc.h>
+              |          ^~~~~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_d4c3d.dir/build.make:78: CMakeFiles/cmTC_d4c3d.dir/CheckSymbolExists.c.o] Error 1
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-OQePXS'
+        gmake: *** [Makefile:127: cmTC_d4c3d/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "openal-soft-1.23.1/CMakeLists.txt:556 (check_include_file)"
+    checks:
+      - "Looking for pthread.h"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-Y9oJ9b"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-Y9oJ9b"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/openal-soft-1.23.1/cmake"
+    buildResult:
+      variable: "HAVE_PTHREAD_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-Y9oJ9b
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_476de/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_476de.dir/build.make CMakeFiles/cmTC_476de.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-Y9oJ9b'
+        Building C object CMakeFiles/cmTC_476de.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_476de.dir/CheckIncludeFile.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-Y9oJ9b/CheckIncludeFile.c
+        Linking C executable cmTC_476de
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_476de.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_476de.dir/CheckIncludeFile.c.o -o cmTC_476de  -latomic -lm -ldl 
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-Y9oJ9b'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "openal-soft-1.23.1/CMakeLists.txt:561 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_PTHREAD"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-Ayq2qB"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-Ayq2qB"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/openal-soft-1.23.1/cmake"
+    buildResult:
+      variable: "HAVE_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-Ayq2qB
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_24f25/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_24f25.dir/build.make CMakeFiles/cmTC_24f25.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-Ayq2qB'
+        Building C object CMakeFiles/cmTC_24f25.dir/src.c.o
+        /usr/bin/cc -DHAVE_PTHREAD  -pthread -o CMakeFiles/cmTC_24f25.dir/src.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-Ayq2qB/src.c
+        Linking C executable cmTC_24f25
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24f25.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_24f25.dir/src.c.o -o cmTC_24f25  -latomic -lm -ldl 
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-Ayq2qB'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "openal-soft-1.23.1/CMakeLists.txt:568 (check_symbol_exists)"
+    checks:
+      - "Looking for pthread_setschedparam"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-fXfriK"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-fXfriK"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/openal-soft-1.23.1/cmake"
+    buildResult:
+      variable: "HAVE_PTHREAD_SETSCHEDPARAM"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-fXfriK
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_77a3e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_77a3e.dir/build.make CMakeFiles/cmTC_77a3e.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-fXfriK'
+        Building C object CMakeFiles/cmTC_77a3e.dir/CheckSymbolExists.c.o
+        /usr/bin/cc   -pthread -o CMakeFiles/cmTC_77a3e.dir/CheckSymbolExists.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-fXfriK/CheckSymbolExists.c
+        Linking C executable cmTC_77a3e
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77a3e.dir/link.txt --verbose=1
+        /usr/bin/cc   -pthread CMakeFiles/cmTC_77a3e.dir/CheckSymbolExists.c.o -o cmTC_77a3e  -latomic -lm -ldl 
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-fXfriK'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "openal-soft-1.23.1/CMakeLists.txt:571 (check_include_files)"
+    checks:
+      - "Looking for include files pthread.h, pthread_np.h"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-XGJfnq"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-XGJfnq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/openal-soft-1.23.1/cmake"
+    buildResult:
+      variable: "HAVE_PTHREAD_NP_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-XGJfnq
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c33d1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c33d1.dir/build.make CMakeFiles/cmTC_c33d1.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-XGJfnq'
+        Building C object CMakeFiles/cmTC_c33d1.dir/HAVE_PTHREAD_NP_H.c.o
+        /usr/bin/cc   -pthread -o CMakeFiles/cmTC_c33d1.dir/HAVE_PTHREAD_NP_H.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-XGJfnq/HAVE_PTHREAD_NP_H.c
+        /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-XGJfnq/HAVE_PTHREAD_NP_H.c:3:10: fatal error: pthread_np.h: No such file or directory
+            3 | #include <pthread_np.h>
+              |          ^~~~~~~~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_c33d1.dir/build.make:78: CMakeFiles/cmTC_c33d1.dir/HAVE_PTHREAD_NP_H.c.o] Error 1
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-XGJfnq'
+        gmake: *** [Makefile:127: cmTC_c33d1/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "openal-soft-1.23.1/CMakeLists.txt:578 (check_symbol_exists)"
+    checks:
+      - "Looking for pthread_setname_np"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-O1Jatq"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-O1Jatq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/openal-soft-1.23.1/cmake"
+    buildResult:
+      variable: "HAVE_PTHREAD_SETNAME_NP"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-O1Jatq
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1978c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1978c.dir/build.make CMakeFiles/cmTC_1978c.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-O1Jatq'
+        Building C object CMakeFiles/cmTC_1978c.dir/CheckSymbolExists.c.o
+        /usr/bin/cc   -pthread -o CMakeFiles/cmTC_1978c.dir/CheckSymbolExists.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-O1Jatq/CheckSymbolExists.c
+        /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-O1Jatq/CheckSymbolExists.c: In function ‘main’:
+        /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-O1Jatq/CheckSymbolExists.c:8:19: error: ‘pthread_setname_np’ undeclared (first use in this function); did you mean ‘pthread_setcanceltype’?
+            8 |   return ((int*)(&pthread_setname_np))[argc];
+              |                   ^~~~~~~~~~~~~~~~~~
+              |                   pthread_setcanceltype
+        /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-O1Jatq/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+        gmake[1]: *** [CMakeFiles/cmTC_1978c.dir/build.make:78: CMakeFiles/cmTC_1978c.dir/CheckSymbolExists.c.o] Error 1
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-O1Jatq'
+        gmake: *** [Makefile:127: cmTC_1978c/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "openal-soft-1.23.1/CMakeLists.txt:580 (check_symbol_exists)"
+    checks:
+      - "Looking for pthread_set_name_np"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-NHOF2j"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-NHOF2j"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/openal-soft-1.23.1/cmake"
+    buildResult:
+      variable: "HAVE_PTHREAD_SET_NAME_NP"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-NHOF2j
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_38c5a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_38c5a.dir/build.make CMakeFiles/cmTC_38c5a.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-NHOF2j'
+        Building C object CMakeFiles/cmTC_38c5a.dir/CheckSymbolExists.c.o
+        /usr/bin/cc   -pthread -o CMakeFiles/cmTC_38c5a.dir/CheckSymbolExists.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-NHOF2j/CheckSymbolExists.c
+        /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-NHOF2j/CheckSymbolExists.c: In function ‘main’:
+        /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-NHOF2j/CheckSymbolExists.c:8:19: error: ‘pthread_set_name_np’ undeclared (first use in this function); did you mean ‘pthread_setcanceltype’?
+            8 |   return ((int*)(&pthread_set_name_np))[argc];
+              |                   ^~~~~~~~~~~~~~~~~~~
+              |                   pthread_setcanceltype
+        /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-NHOF2j/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+        gmake[1]: *** [CMakeFiles/cmTC_38c5a.dir/build.make:78: CMakeFiles/cmTC_38c5a.dir/CheckSymbolExists.c.o] Error 1
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-NHOF2j'
+        gmake: *** [Makefile:127: cmTC_38c5a/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "openal-soft-1.23.1/CMakeLists.txt:585 (check_symbol_exists)"
+    checks:
+      - "Looking for getopt"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-snlvs8"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-snlvs8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/openal-soft-1.23.1/cmake"
+    buildResult:
+      variable: "HAVE_GETOPT"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-snlvs8
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_56647/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_56647.dir/build.make CMakeFiles/cmTC_56647.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-snlvs8'
+        Building C object CMakeFiles/cmTC_56647.dir/CheckSymbolExists.c.o
+        /usr/bin/cc   -pthread -o CMakeFiles/cmTC_56647.dir/CheckSymbolExists.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-snlvs8/CheckSymbolExists.c
+        Linking C executable cmTC_56647
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56647.dir/link.txt --verbose=1
+        /usr/bin/cc   -pthread CMakeFiles/cmTC_56647.dir/CheckSymbolExists.c.o -o cmTC_56647  -latomic -lm -ldl 
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-snlvs8'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "zlib-1.2.8/CMakeLists.txt:26 (check_include_file)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-4kJJiV"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-4kJJiV"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-4kJJiV
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_19df8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_19df8.dir/build.make CMakeFiles/cmTC_19df8.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-4kJJiV'
+        Building C object CMakeFiles/cmTC_19df8.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_19df8.dir/CheckIncludeFile.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-4kJJiV/CheckIncludeFile.c
+        Linking C executable cmTC_19df8
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19df8.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_19df8.dir/CheckIncludeFile.c.o -o cmTC_19df8 
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-4kJJiV'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "zlib-1.2.8/CMakeLists.txt:27 (check_include_file)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-NCfLnR"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-NCfLnR"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-NCfLnR
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f73db/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f73db.dir/build.make CMakeFiles/cmTC_f73db.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-NCfLnR'
+        Building C object CMakeFiles/cmTC_f73db.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_f73db.dir/CheckIncludeFile.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-NCfLnR/CheckIncludeFile.c
+        Linking C executable cmTC_f73db
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f73db.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_f73db.dir/CheckIncludeFile.c.o -o cmTC_f73db 
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-NCfLnR'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "zlib-1.2.8/CMakeLists.txt:28 (check_include_file)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-pfF83E"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-pfF83E"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-pfF83E
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2812d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2812d.dir/build.make CMakeFiles/cmTC_2812d.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-pfF83E'
+        Building C object CMakeFiles/cmTC_2812d.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_2812d.dir/CheckIncludeFile.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-pfF83E/CheckIncludeFile.c
+        Linking C executable cmTC_2812d
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2812d.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_2812d.dir/CheckIncludeFile.c.o -o cmTC_2812d 
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-pfF83E'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "zlib-1.2.8/CMakeLists.txt:46 (check_type_size)"
+    checks:
+      - "Check size of off64_t"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-K8pOa0"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-K8pOa0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_OFF64_T"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-K8pOa0
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_590a4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_590a4.dir/build.make CMakeFiles/cmTC_590a4.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-K8pOa0'
+        Building C object CMakeFiles/cmTC_590a4.dir/OFF64_T.c.o
+        /usr/bin/cc -DHAVE_STDDEF_H -DHAVE_STDINT_H -DHAVE_SYS_TYPES_H -D_LARGEFILE64_SOURCE=1   -o CMakeFiles/cmTC_590a4.dir/OFF64_T.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-K8pOa0/OFF64_T.c
+        Linking C executable cmTC_590a4
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_590a4.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_590a4.dir/OFF64_T.c.o -o cmTC_590a4 
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-K8pOa0'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "zlib-1.2.8/CMakeLists.txt:55 (check_function_exists)"
+    checks:
+      - "Looking for fseeko"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-b47BO6"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-b47BO6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "HAVE_FSEEKO"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-b47BO6
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f6889/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f6889.dir/build.make CMakeFiles/cmTC_f6889.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-b47BO6'
+        Building C object CMakeFiles/cmTC_f6889.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fseeko -o CMakeFiles/cmTC_f6889.dir/CheckFunctionExists.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-b47BO6/CheckFunctionExists.c
+        Linking C executable cmTC_f6889
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6889.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fseeko CMakeFiles/cmTC_f6889.dir/CheckFunctionExists.c.o -o cmTC_f6889 
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-b47BO6'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "zlib-1.2.8/CMakeLists.txt:63 (check_include_file)"
+    checks:
+      - "Looking for unistd.h"
+    directories:
+      source: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-jUBVoQ"
+      binary: "/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-jUBVoQ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "Z_HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-jUBVoQ
+        
+        Run Build Command(s):/usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_eb958/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_eb958.dir/build.make CMakeFiles/cmTC_eb958.dir/build
+        gmake[1]: Entering directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-jUBVoQ'
+        Building C object CMakeFiles/cmTC_eb958.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_eb958.dir/CheckIncludeFile.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-jUBVoQ/CheckIncludeFile.c
+        Linking C executable cmTC_eb958
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb958.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_eb958.dir/CheckIncludeFile.c.o -o cmTC_eb958 
+        gmake[1]: Leaving directory '/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/CMakeFiles/CMakeScratch/TryCompile-jUBVoQ'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1102 (message)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "png-1.6.15/CMakeLists.txt:14 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      cc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0
+      Copyright (C) 2021 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+...

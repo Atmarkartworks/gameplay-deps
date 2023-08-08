@@ -1,3 +1,0 @@
-/home/c3p/GP/gameplay-deps/app/.cxx/Debug/4f483k2t/x86_64/CMakeFiles/rebuild_cache.dir
-/home/c3p/GP/gameplay-deps/app/.cxx/Debug/4f483k2t/x86_64/CMakeFiles/edit_cache.dir
-/home/c3p/GP/gameplay-deps/app/.cxx/Debug/4f483k2t/x86_64/CMakeFiles/testdeps.dir

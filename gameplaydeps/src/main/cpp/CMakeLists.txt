@@ -1,4 +1,5 @@
-cmake_minimum_required(VERSION 2.8)
+#cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 3.22)
 
 project(GamePlay-deps)
 
@@ -40,7 +41,8 @@ add_subdirectory(tinyxml2-2.1.0)
 add_subdirectory(lua-5.2.3)
 
 if (NOT APPLE)
-    add_subdirectory(openal-1.16.0)
+#    add_subdirectory(openal-1.16.0)
+    add_subdirectory(openal-soft-1.23.1)
 endif(NOT APPLE)
 
 if (NOT APPLE AND NOT ANDROID)
@@ -79,11 +81,12 @@ set(BUILD_TARGETS
 )
 
 if (NOT APPLE)
-    list(APPEND BUILD_TARGETS GLEW)
+#    list(APPEND BUILD_TARGETS GLEW)
     IF(WIN32)
         list(APPEND BUILD_TARGETS OpenAL32)
     ELSE(WIN32)
-        list(APPEND BUILD_TARGETS openal)
+        list(APPEND BUILD_TARGETS OpenAL)
+#        list(APPEND BUILD_TARGETS openal)
     ENDIF(WIN32)
 endif(NOT APPLE)
 
@@ -116,6 +119,8 @@ else()
 	COMMAND ${CMAKE_CURRENT_SOURCE_DIR}/cmake/msvc-amalgamate.bat ${LIBRARY_OUTPUT_PATH}/${CMAKE_CFG_INTDIR}
     )
 endif(LINUX OR ANDROID)
+
+#add_library(gameplay-deps gameplaydeps.cpp)
 
 add_custom_target(gameplay-deps ALL DEPENDS ${GAMEPLAY_DEPS})
 add_dependencies(gameplay-deps ${BUILD_TARGETS})

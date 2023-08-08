@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../out/external-deps/lib/linux/x86_64/libbase64.a CMakeFiles/base64.dir/base64.cpp.o
+/usr/bin/ranlib ../out/external-deps/lib/linux/x86_64/libbase64.a

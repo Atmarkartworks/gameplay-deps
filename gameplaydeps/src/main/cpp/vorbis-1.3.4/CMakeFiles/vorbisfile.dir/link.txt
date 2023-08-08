@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../out/external-deps/lib/linux/x86_64/libvorbisfile.a CMakeFiles/vorbisfile.dir/lib/vorbisfile.c.o
+/usr/bin/ranlib ../out/external-deps/lib/linux/x86_64/libvorbisfile.a
