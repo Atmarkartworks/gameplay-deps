@@ -3,7 +3,7 @@ The host system is: Linux - 5.19.0-50-generic - x86_64
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_8fdf5 && [1/2] Building C object CMakeFiles/cmTC_8fdf5.dir/CMakeCCompilerABI.c.o
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_c1232 && [1/2] Building C object CMakeFiles/cmTC_c1232.dir/CMakeCCompilerABI.c.o
 Android (7714059, based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)
 Target: armv7-none-linux-android23
 Thread model: posix
@@ -11,7 +11,7 @@ InstalledDir: /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/li
 Found candidate GCC installation: /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
 Selected GCC installation: /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
  (in-process)
- "/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang" -cc1 -triple thumbv7-none-linux-android23 -emit-obj -mrelax-all --mrelax-relocations -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -crypto -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -fallow-half-arguments-and-returns -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -resource-dir /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8 -dependency-file CMakeFiles/cmTC_8fdf5.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_8fdf5.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/include -internal-externc-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -Wformat -fdebug-compilation-dir /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -o CMakeFiles/cmTC_8fdf5.dir/CMakeCCompilerABI.c.o -x c /home/c3p/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/CMakeCCompilerABI.c
+ "/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang" -cc1 -triple thumbv7-none-linux-android23 -emit-obj -mrelax-all --mrelax-relocations -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -crypto -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -fallow-half-arguments-and-returns -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -resource-dir /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8 -dependency-file CMakeFiles/cmTC_c1232.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_c1232.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/include -internal-externc-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -Wformat -fdebug-compilation-dir /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -o CMakeFiles/cmTC_c1232.dir/CMakeCCompilerABI.c.o -x c /home/c3p/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/CMakeCCompilerABI.c
 clang -cc1 version 12.0.8 based upon LLVM 12.0.8git default target x86_64-unknown-linux-gnu
 ignoring nonexistent directory "/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include"
 #include "..." search starts here:
@@ -21,14 +21,14 @@ ignoring nonexistent directory "/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchain
  /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi
  /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
 End of search list.
-[2/2] Linking C executable cmTC_8fdf5
+[2/2] Linking C executable cmTC_c1232
 Android (7714059, based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)
 Target: armv7-none-linux-android23
 Thread model: posix
 InstalledDir: /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin
 Found candidate GCC installation: /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
 Selected GCC installation: /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
- "/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/ld" --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 -X --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_8fdf5 /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/23/crtbegin_dynamic.o -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/lib/linux/arm -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/23 -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/../lib -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_8fdf5.dir/CMakeCCompilerABI.c.o /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/23/crtend_android.o
+ "/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/ld" --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 -X --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_c1232 /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/23/crtbegin_dynamic.o -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/lib/linux/arm -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/23 -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/../lib -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_c1232.dir/CMakeCCompilerABI.c.o /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/23/crtend_android.o
 
 
 
@@ -51,7 +51,7 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_8fdf5 && [1/2] Building C object CMakeFiles/cmTC_8fdf5.dir/CMakeCCompilerABI.c.o]
+  ignore line: [Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_c1232 && [1/2] Building C object CMakeFiles/cmTC_c1232.dir/CMakeCCompilerABI.c.o]
   ignore line: [Android (7714059  based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)]
   ignore line: [Target: armv7-none-linux-android23]
   ignore line: [Thread model: posix]
@@ -59,7 +59,7 @@ Parsed C implicit link information from above output:
   ignore line: [Found candidate GCC installation: /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
   ignore line: [Selected GCC installation: /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
   ignore line: [ (in-process)]
-  ignore line: [ "/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang" -cc1 -triple thumbv7-none-linux-android23 -emit-obj -mrelax-all --mrelax-relocations -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -crypto -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -fallow-half-arguments-and-returns -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -resource-dir /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8 -dependency-file CMakeFiles/cmTC_8fdf5.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_8fdf5.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/include -internal-externc-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -Wformat -fdebug-compilation-dir /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -o CMakeFiles/cmTC_8fdf5.dir/CMakeCCompilerABI.c.o -x c /home/c3p/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/CMakeCCompilerABI.c]
+  ignore line: [ "/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang" -cc1 -triple thumbv7-none-linux-android23 -emit-obj -mrelax-all --mrelax-relocations -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -crypto -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -fallow-half-arguments-and-returns -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -resource-dir /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8 -dependency-file CMakeFiles/cmTC_c1232.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_c1232.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/include -internal-externc-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -Wformat -fdebug-compilation-dir /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -o CMakeFiles/cmTC_c1232.dir/CMakeCCompilerABI.c.o -x c /home/c3p/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/CMakeCCompilerABI.c]
   ignore line: [clang -cc1 version 12.0.8 based upon LLVM 12.0.8git default target x86_64-unknown-linux-gnu]
   ignore line: [ignoring nonexistent directory "/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include"]
   ignore line: [#include "..." search starts here:]
@@ -69,14 +69,14 @@ Parsed C implicit link information from above output:
   ignore line: [ /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi]
   ignore line: [ /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
   ignore line: [End of search list.]
-  ignore line: [[2/2] Linking C executable cmTC_8fdf5]
+  ignore line: [[2/2] Linking C executable cmTC_c1232]
   ignore line: [Android (7714059  based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)]
   ignore line: [Target: armv7-none-linux-android23]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin]
   ignore line: [Found candidate GCC installation: /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
   ignore line: [Selected GCC installation: /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
-  link line: [ "/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/ld" --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 -X --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_8fdf5 /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/23/crtbegin_dynamic.o -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/lib/linux/arm -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/23 -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/../lib -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_8fdf5.dir/CMakeCCompilerABI.c.o /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/23/crtend_android.o]
+  link line: [ "/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/ld" --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 -X --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_c1232 /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/23/crtbegin_dynamic.o -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/lib/linux/arm -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/23 -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/../lib -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_c1232.dir/CMakeCCompilerABI.c.o /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/23/crtend_android.o]
     arg [/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/ld] ==> ignore
     arg [--sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot] ==> ignore
     arg [-pie] ==> ignore
@@ -95,7 +95,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_8fdf5] ==> ignore
+    arg [cmTC_c1232] ==> ignore
     arg [/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/23/crtbegin_dynamic.o] ==> ignore
     arg [-L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/lib/linux/arm] ==> dir [/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/lib/linux/arm]
     arg [-L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x] ==> dir [/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
@@ -109,7 +109,7 @@ Parsed C implicit link information from above output:
     arg [--fatal-warnings] ==> ignore
     arg [--no-undefined] ==> ignore
     arg [--gc-sections] ==> ignore
-    arg [CMakeFiles/cmTC_8fdf5.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_c1232.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-arm-android.a] ==> lib [/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-arm-android.a]
     arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
     arg [-ldl] ==> lib [dl]
@@ -135,7 +135,7 @@ Parsed C implicit link information from above output:
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_9ea13 && [1/2] Building CXX object CMakeFiles/cmTC_9ea13.dir/CMakeCXXCompilerABI.cpp.o
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_a257a && [1/2] Building CXX object CMakeFiles/cmTC_a257a.dir/CMakeCXXCompilerABI.cpp.o
 Android (7714059, based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)
 Target: armv7-none-linux-android23
 Thread model: posix
@@ -143,7 +143,7 @@ InstalledDir: /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/li
 Found candidate GCC installation: /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
 Selected GCC installation: /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
  (in-process)
- "/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++" -cc1 -triple thumbv7-none-linux-android23 -emit-obj -mrelax-all --mrelax-relocations -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -crypto -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -fallow-half-arguments-and-returns -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -resource-dir /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8 -dependency-file CMakeFiles/cmTC_9ea13.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_9ea13.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/include -internal-externc-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -Wformat -fdeprecated-macro -fdebug-compilation-dir /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -o CMakeFiles/cmTC_9ea13.dir/CMakeCXXCompilerABI.cpp.o -x c++ /home/c3p/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp
+ "/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++" -cc1 -triple thumbv7-none-linux-android23 -emit-obj -mrelax-all --mrelax-relocations -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -crypto -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -fallow-half-arguments-and-returns -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -resource-dir /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8 -dependency-file CMakeFiles/cmTC_a257a.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_a257a.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/include -internal-externc-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -Wformat -fdeprecated-macro -fdebug-compilation-dir /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -o CMakeFiles/cmTC_a257a.dir/CMakeCXXCompilerABI.cpp.o -x c++ /home/c3p/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp
 clang -cc1 version 12.0.8 based upon LLVM 12.0.8git default target x86_64-unknown-linux-gnu
 ignoring nonexistent directory "/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include"
 #include "..." search starts here:
@@ -154,14 +154,14 @@ ignoring nonexistent directory "/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchain
  /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi
  /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
 End of search list.
-[2/2] Linking CXX executable cmTC_9ea13
+[2/2] Linking CXX executable cmTC_a257a
 Android (7714059, based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)
 Target: armv7-none-linux-android23
 Thread model: posix
 InstalledDir: /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin
 Found candidate GCC installation: /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
 Selected GCC installation: /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
- "/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/ld" --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 -X --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_9ea13 /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/23/crtbegin_dynamic.o -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/lib/linux/arm -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/23 -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/../lib -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_9ea13.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/23/crtend_android.o
+ "/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/ld" --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 -X --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_a257a /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/23/crtbegin_dynamic.o -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/lib/linux/arm -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/23 -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/../lib -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_a257a.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/23/crtend_android.o
 
 
 
@@ -186,7 +186,7 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_9ea13 && [1/2] Building CXX object CMakeFiles/cmTC_9ea13.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_a257a && [1/2] Building CXX object CMakeFiles/cmTC_a257a.dir/CMakeCXXCompilerABI.cpp.o]
   ignore line: [Android (7714059  based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)]
   ignore line: [Target: armv7-none-linux-android23]
   ignore line: [Thread model: posix]
@@ -194,7 +194,7 @@ Parsed CXX implicit link information from above output:
   ignore line: [Found candidate GCC installation: /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
   ignore line: [Selected GCC installation: /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
   ignore line: [ (in-process)]
-  ignore line: [ "/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++" -cc1 -triple thumbv7-none-linux-android23 -emit-obj -mrelax-all --mrelax-relocations -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -crypto -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -fallow-half-arguments-and-returns -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -resource-dir /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8 -dependency-file CMakeFiles/cmTC_9ea13.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_9ea13.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/include -internal-externc-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -Wformat -fdeprecated-macro -fdebug-compilation-dir /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -o CMakeFiles/cmTC_9ea13.dir/CMakeCXXCompilerABI.cpp.o -x c++ /home/c3p/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [ "/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++" -cc1 -triple thumbv7-none-linux-android23 -emit-obj -mrelax-all --mrelax-relocations -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -crypto -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -fallow-half-arguments-and-returns -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -resource-dir /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8 -dependency-file CMakeFiles/cmTC_a257a.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_a257a.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/include -internal-externc-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -Wformat -fdeprecated-macro -fdebug-compilation-dir /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -o CMakeFiles/cmTC_a257a.dir/CMakeCXXCompilerABI.cpp.o -x c++ /home/c3p/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [clang -cc1 version 12.0.8 based upon LLVM 12.0.8git default target x86_64-unknown-linux-gnu]
   ignore line: [ignoring nonexistent directory "/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include"]
   ignore line: [#include "..." search starts here:]
@@ -205,14 +205,14 @@ Parsed CXX implicit link information from above output:
   ignore line: [ /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi]
   ignore line: [ /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
   ignore line: [End of search list.]
-  ignore line: [[2/2] Linking CXX executable cmTC_9ea13]
+  ignore line: [[2/2] Linking CXX executable cmTC_a257a]
   ignore line: [Android (7714059  based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)]
   ignore line: [Target: armv7-none-linux-android23]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin]
   ignore line: [Found candidate GCC installation: /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
   ignore line: [Selected GCC installation: /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
-  link line: [ "/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/ld" --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 -X --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_9ea13 /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/23/crtbegin_dynamic.o -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/lib/linux/arm -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/23 -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/../lib -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_9ea13.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/23/crtend_android.o]
+  link line: [ "/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/ld" --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 -X --hash-style=gnu --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_a257a /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/23/crtbegin_dynamic.o -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/lib/linux/arm -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/23 -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/../lib -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/../../lib -L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_a257a.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/23/crtend_android.o]
     arg [/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/ld] ==> ignore
     arg [--sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot] ==> ignore
     arg [-pie] ==> ignore
@@ -231,7 +231,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_9ea13] ==> ignore
+    arg [cmTC_a257a] ==> ignore
     arg [/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/23/crtbegin_dynamic.o] ==> ignore
     arg [-L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/lib/linux/arm] ==> dir [/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/lib/linux/arm]
     arg [-L/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x] ==> dir [/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
@@ -245,7 +245,7 @@ Parsed CXX implicit link information from above output:
     arg [--fatal-warnings] ==> ignore
     arg [--no-undefined] ==> ignore
     arg [--gc-sections] ==> ignore
-    arg [CMakeFiles/cmTC_9ea13.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_a257a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-Bstatic] ==> ignore
     arg [-lc++] ==> lib [c++]
     arg [-Bdynamic] ==> ignore
@@ -275,48 +275,48 @@ Parsed CXX implicit link information from above output:
 Determining if the include file sys/types.h exists passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_c2d30 && [1/2] Building C object CMakeFiles/cmTC_c2d30.dir/CheckIncludeFile.c.o
-[2/2] Linking C executable cmTC_c2d30
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_95906 && [1/2] Building C object CMakeFiles/cmTC_95906.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_95906
 
 
 
 Determining if the include file stdint.h exists passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_7349b && [1/2] Building C object CMakeFiles/cmTC_7349b.dir/CheckIncludeFile.c.o
-[2/2] Linking C executable cmTC_7349b
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_aa2e7 && [1/2] Building C object CMakeFiles/cmTC_aa2e7.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_aa2e7
 
 
 
 Determining if the include file stddef.h exists passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_69c31 && [1/2] Building C object CMakeFiles/cmTC_69c31.dir/CheckIncludeFile.c.o
-[2/2] Linking C executable cmTC_69c31
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_97056 && [1/2] Building C object CMakeFiles/cmTC_97056.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_97056
 
 
 
 Determining size of long passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_e5892 && [1/2] Building C object CMakeFiles/cmTC_e5892.dir/SIZEOF_LONG.c.o
-[2/2] Linking C executable cmTC_e5892
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_f760e && [1/2] Building C object CMakeFiles/cmTC_f760e.dir/SIZEOF_LONG.c.o
+[2/2] Linking C executable cmTC_f760e
 
 
 
 Determining size of long long passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_39136 && [1/2] Building C object CMakeFiles/cmTC_39136.dir/SIZEOF_LONG_LONG.c.o
-[2/2] Linking C executable cmTC_39136
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_3cba5 && [1/2] Building C object CMakeFiles/cmTC_3cba5.dir/SIZEOF_LONG_LONG.c.o
+[2/2] Linking C executable cmTC_3cba5
 
 
 
 Performing C SOURCE FILE Test HAVE_STD_C99 succeeded with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_9d28d && [1/2] Building C object CMakeFiles/cmTC_9d28d.dir/src.c.o
-[2/2] Linking C executable cmTC_9d28d
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_30718 && [1/2] Building C object CMakeFiles/cmTC_30718.dir/src.c.o
+[2/2] Linking C executable cmTC_30718
 
 
 Source file was:
@@ -324,8 +324,8 @@ int main(void) { return 0; }
 Performing C SOURCE FILE Test HAVE_C99_VLA succeeded with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_7970c && [1/2] Building C object CMakeFiles/cmTC_7970c.dir/src.c.o
-[2/2] Linking C executable cmTC_7970c
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_00048 && [1/2] Building C object CMakeFiles/cmTC_00048.dir/src.c.o
+[2/2] Linking C executable cmTC_00048
 
 
 Source file was:
@@ -338,8 +338,8 @@ int main(int argc, char *argv[])
 Performing C SOURCE FILE Test HAVE_C99_BOOL succeeded with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_f1aaf && [1/2] Building C object CMakeFiles/cmTC_f1aaf.dir/src.c.o
-[2/2] Linking C executable cmTC_f1aaf
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_5ff71 && [1/2] Building C object CMakeFiles/cmTC_5ff71.dir/src.c.o
+[2/2] Linking C executable cmTC_5ff71
 
 
 Source file was:
@@ -352,8 +352,8 @@ int main(int argc, char *argv[])
 Performing C SOURCE FILE Test HAVE_C11_STATIC_ASSERT succeeded with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_5e236 && [1/2] Building C object CMakeFiles/cmTC_5e236.dir/src.c.o
-[2/2] Linking C executable cmTC_5e236
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_6b7fc && [1/2] Building C object CMakeFiles/cmTC_6b7fc.dir/src.c.o
+[2/2] Linking C executable cmTC_6b7fc
 
 
 Source file was:
@@ -365,8 +365,8 @@ int main()
 Performing C SOURCE FILE Test HAVE_C11_ALIGNAS succeeded with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_61be1 && [1/2] Building C object CMakeFiles/cmTC_61be1.dir/src.c.o
-[2/2] Linking C executable cmTC_61be1
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_df050 && [1/2] Building C object CMakeFiles/cmTC_df050.dir/src.c.o
+[2/2] Linking C executable cmTC_df050
 
 
 Source file was:
@@ -378,8 +378,8 @@ _Alignas(16) int foo;
 Performing C SOURCE FILE Test HAVE_C11_ATOMIC succeeded with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_72a45 && [1/2] Building C object CMakeFiles/cmTC_72a45.dir/src.c.o
-[2/2] Linking C executable cmTC_72a45
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_f1f14 && [1/2] Building C object CMakeFiles/cmTC_f1f14.dir/src.c.o
+[2/2] Linking C executable cmTC_f1f14
 
 
 Source file was:
@@ -392,8 +392,8 @@ Source file was:
 Performing C SOURCE FILE Test HAVE_W_EXTRA succeeded with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_8b181 && [1/2] Building C object CMakeFiles/cmTC_8b181.dir/src.c.o
-[2/2] Linking C executable cmTC_8b181
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_73569 && [1/2] Building C object CMakeFiles/cmTC_73569.dir/src.c.o
+[2/2] Linking C executable cmTC_73569
 
 
 Source file was:
@@ -401,8 +401,8 @@ int main(void) { return 0; }
 Performing C SOURCE FILE Test HAVE_FPIC_SWITCH succeeded with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_a48f4 && [1/2] Building C object CMakeFiles/cmTC_a48f4.dir/src.c.o
-[2/2] Linking C executable cmTC_a48f4
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_84a28 && [1/2] Building C object CMakeFiles/cmTC_84a28.dir/src.c.o
+[2/2] Linking C executable cmTC_84a28
 
 
 Source file was:
@@ -410,8 +410,8 @@ int main(void) { return 0; }
 Performing C SOURCE FILE Test HAVE_GCC_DESTRUCTOR succeeded with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_d67a7 && [1/2] Building C object CMakeFiles/cmTC_d67a7.dir/src.c.o
-[2/2] Linking C executable cmTC_d67a7
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_66f97 && [1/2] Building C object CMakeFiles/cmTC_66f97.dir/src.c.o
+[2/2] Linking C executable cmTC_66f97
 
 
 Source file was:
@@ -420,8 +420,8 @@ int foo() __attribute__((destructor));
 Performing C SOURCE FILE Test HAVE_GCC_PROTECTED_VISIBILITY succeeded with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_b8951 && [1/2] Building C object CMakeFiles/cmTC_b8951.dir/src.c.o
-[2/2] Linking C executable cmTC_b8951
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_13eb6 && [1/2] Building C object CMakeFiles/cmTC_13eb6.dir/src.c.o
+[2/2] Linking C executable cmTC_13eb6
 
 
 Source file was:
@@ -430,8 +430,8 @@ int foo() __attribute__((visibility("protected")));
 Performing C SOURCE FILE Test HAVE_VISIBILITY_HIDDEN_SWITCH succeeded with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_0052e && [1/2] Building C object CMakeFiles/cmTC_0052e.dir/src.c.o
-[2/2] Linking C executable cmTC_0052e
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_eacdb && [1/2] Building C object CMakeFiles/cmTC_eacdb.dir/src.c.o
+[2/2] Linking C executable cmTC_eacdb
 
 
 Source file was:
@@ -439,8 +439,8 @@ int main(void) { return 0; }
 Performing C SOURCE FILE Test HAVE_ATTRIBUTE_ALIGNED succeeded with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_35f99 && [1/2] Building C object CMakeFiles/cmTC_35f99.dir/src.c.o
-[2/2] Linking C executable cmTC_35f99
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_3b7f3 && [1/2] Building C object CMakeFiles/cmTC_3b7f3.dir/src.c.o
+[2/2] Linking C executable cmTC_3b7f3
 
 
 Source file was:
@@ -449,9 +449,9 @@ int foo __attribute__((aligned(16)));
 Performing C SOURCE FILE Test HAVE_MSSE_SWITCH succeeded with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_51c69 && [1/2] Building C object CMakeFiles/cmTC_51c69.dir/src.c.o
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_b7aca && [1/2] Building C object CMakeFiles/cmTC_b7aca.dir/src.c.o
 clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
-[2/2] Linking C executable cmTC_51c69
+[2/2] Linking C executable cmTC_b7aca
 
 
 Source file was:
@@ -459,9 +459,9 @@ int main(void) { return 0; }
 Performing C SOURCE FILE Test HAVE_MSSE2_SWITCH succeeded with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_c3909 && [1/2] Building C object CMakeFiles/cmTC_c3909.dir/src.c.o
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_ceb41 && [1/2] Building C object CMakeFiles/cmTC_ceb41.dir/src.c.o
 clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
-[2/2] Linking C executable cmTC_c3909
+[2/2] Linking C executable cmTC_ceb41
 
 
 Source file was:
@@ -469,9 +469,9 @@ int main(void) { return 0; }
 Performing C SOURCE FILE Test HAVE_MSSE4_1_SWITCH succeeded with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_9e0d1 && [1/2] Building C object CMakeFiles/cmTC_9e0d1.dir/src.c.o
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_5dbe9 && [1/2] Building C object CMakeFiles/cmTC_5dbe9.dir/src.c.o
 clang: warning: argument unused during compilation: '-msse4.1' [-Wunused-command-line-argument]
-[2/2] Linking C executable cmTC_9e0d1
+[2/2] Linking C executable cmTC_5dbe9
 
 
 Source file was:
@@ -479,8 +479,8 @@ int main(void) { return 0; }
 Performing C SOURCE FILE Test HAVE_GCC_FORMAT succeeded with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_59db7 && [1/2] Building C object CMakeFiles/cmTC_59db7.dir/src.c.o
-[2/2] Linking C executable cmTC_59db7
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_9b7f7 && [1/2] Building C object CMakeFiles/cmTC_9b7f7.dir/src.c.o
+[2/2] Linking C executable cmTC_9b7f7
 
 
 Source file was:
@@ -489,71 +489,71 @@ int foo(const char *str, ...) __attribute__((format(printf, 1, 2)));
 Determining if the include file stdbool.h exists passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_56ab8 && [1/2] Building C object CMakeFiles/cmTC_56ab8.dir/CheckIncludeFile.c.o
-[2/2] Linking C executable cmTC_56ab8
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_cab85 && [1/2] Building C object CMakeFiles/cmTC_cab85.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_cab85
 
 
 
 Determining if the include file stdalign.h exists passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_f0af4 && [1/2] Building C object CMakeFiles/cmTC_f0af4.dir/CheckIncludeFile.c.o
-[2/2] Linking C executable cmTC_f0af4
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_1eccf && [1/2] Building C object CMakeFiles/cmTC_1eccf.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_1eccf
 
 
 
 Determining if the include file malloc.h exists passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_369d5 && [1/2] Building C object CMakeFiles/cmTC_369d5.dir/CheckIncludeFile.c.o
-[2/2] Linking C executable cmTC_369d5
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_518af && [1/2] Building C object CMakeFiles/cmTC_518af.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_518af
 
 
 
 Determining if the include file ftw.h exists passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_399a1 && [1/2] Building C object CMakeFiles/cmTC_399a1.dir/CheckIncludeFile.c.o
-[2/2] Linking C executable cmTC_399a1
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_d2fb5 && [1/2] Building C object CMakeFiles/cmTC_d2fb5.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_d2fb5
 
 
 
 Determining if the include file strings.h exists passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_b88ef && [1/2] Building C object CMakeFiles/cmTC_b88ef.dir/CheckIncludeFile.c.o
-[2/2] Linking C executable cmTC_b88ef
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_38f77 && [1/2] Building C object CMakeFiles/cmTC_38f77.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_38f77
 
 
 
 Determining if the include file sys/sysconf.h exists passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_73917 && [1/2] Building C object CMakeFiles/cmTC_73917.dir/CheckIncludeFile.c.o
-[2/2] Linking C executable cmTC_73917
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_259c4 && [1/2] Building C object CMakeFiles/cmTC_259c4.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_259c4
 
 
 
 Determining if the include file fenv.h exists passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_22400 && [1/2] Building C object CMakeFiles/cmTC_22400.dir/CheckIncludeFile.c.o
-[2/2] Linking C executable cmTC_22400
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_6ef22 && [1/2] Building C object CMakeFiles/cmTC_6ef22.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_6ef22
 
 
 
 Determining if the include file float.h exists passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_d1b50 && [1/2] Building C object CMakeFiles/cmTC_d1b50.dir/CheckIncludeFile.c.o
-[2/2] Linking C executable cmTC_d1b50
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_dbbf7 && [1/2] Building C object CMakeFiles/cmTC_dbbf7.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_dbbf7
 
 
 
 Determining if the function pow exists in the m passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_dcccb && [1/2] Building C object CMakeFiles/cmTC_dcccb.dir/CheckFunctionExists.c.o
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_388f5 && [1/2] Building C object CMakeFiles/cmTC_388f5.dir/CheckFunctionExists.c.o
 /home/c3p/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'pow' [-Wincompatible-library-redeclaration]
   CHECK_FUNCTION_EXISTS(void);
   ^
@@ -565,15 +565,15 @@ Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_dcccb && 
 #define CHECK_FUNCTION_EXISTS pow
                               ^
 1 warning generated.
-[2/2] Linking C executable cmTC_dcccb
+[2/2] Linking C executable cmTC_388f5
 
 
 
 Determining if the posix_memalign exist passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_1bca3 && [1/2] Building C object CMakeFiles/cmTC_1bca3.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_1bca3
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_4d90c && [1/2] Building C object CMakeFiles/cmTC_4d90c.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_4d90c
 
 
 File /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -593,8 +593,8 @@ int main(int argc, char** argv)
 Determining if the lrintf exist passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_c0caf && [1/2] Building C object CMakeFiles/cmTC_c0caf.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_c0caf
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_32695 && [1/2] Building C object CMakeFiles/cmTC_32695.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_32695
 
 
 File /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -614,8 +614,8 @@ int main(int argc, char** argv)
 Determining if the ftw exist passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_8fb54 && [1/2] Building C object CMakeFiles/cmTC_8fb54.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_8fb54
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_e6962 && [1/2] Building C object CMakeFiles/cmTC_e6962.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_e6962
 
 
 File /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -635,7 +635,7 @@ int main(int argc, char** argv)
 Determining if the function strtof exists passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_a8d2c && [1/2] Building C object CMakeFiles/cmTC_a8d2c.dir/CheckFunctionExists.c.o
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_8136b && [1/2] Building C object CMakeFiles/cmTC_8136b.dir/CheckFunctionExists.c.o
 /home/c3p/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strtof' [-Wincompatible-library-redeclaration]
   CHECK_FUNCTION_EXISTS(void);
   ^
@@ -647,39 +647,39 @@ Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_a8d2c && 
 #define CHECK_FUNCTION_EXISTS strtof
                               ^
 1 warning generated.
-[2/2] Linking C executable cmTC_a8d2c
+[2/2] Linking C executable cmTC_8136b
 
 
 
 Determining if the function stat exists passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_45fea && [1/2] Building C object CMakeFiles/cmTC_45fea.dir/CheckFunctionExists.c.o
-[2/2] Linking C executable cmTC_45fea
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_12c2a && [1/2] Building C object CMakeFiles/cmTC_12c2a.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_12c2a
 
 
 
 Determining if the function strcasecmp exists passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_969cd && [1/2] Building C object CMakeFiles/cmTC_969cd.dir/CheckFunctionExists.c.o
-[2/2] Linking C executable cmTC_969cd
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_5d8b9 && [1/2] Building C object CMakeFiles/cmTC_5d8b9.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_5d8b9
 
 
 
 Determining if the function strncasecmp exists passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_b1fd1 && [1/2] Building C object CMakeFiles/cmTC_b1fd1.dir/CheckFunctionExists.c.o
-[2/2] Linking C executable cmTC_b1fd1
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_1d3f7 && [1/2] Building C object CMakeFiles/cmTC_1d3f7.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_1d3f7
 
 
 
 Determining if the isfinite exist passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_30091 && [1/2] Building C object CMakeFiles/cmTC_30091.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_30091
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_c95e5 && [1/2] Building C object CMakeFiles/cmTC_c95e5.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c95e5
 
 
 File /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -699,8 +699,8 @@ int main(int argc, char** argv)
 Determining if the isnan exist passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_f8e4a && [1/2] Building C object CMakeFiles/cmTC_f8e4a.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_f8e4a
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_f2533 && [1/2] Building C object CMakeFiles/cmTC_f2533.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f2533
 
 
 File /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -720,48 +720,48 @@ int main(int argc, char** argv)
 Determining if the include file dlfcn.h exists passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_fba7f && [1/2] Building C object CMakeFiles/cmTC_fba7f.dir/CheckIncludeFile.c.o
-[2/2] Linking C executable cmTC_fba7f
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_efbea && [1/2] Building C object CMakeFiles/cmTC_efbea.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_efbea
 
 
 
 Determining if the function dlopen exists in the dl passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_6006b && [1/2] Building C object CMakeFiles/cmTC_6006b.dir/CheckFunctionExists.c.o
-[2/2] Linking C executable cmTC_6006b
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_25ecd && [1/2] Building C object CMakeFiles/cmTC_25ecd.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_25ecd
 
 
 
 Determining if the function gettimeofday exists passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_5693e && [1/2] Building C object CMakeFiles/cmTC_5693e.dir/CheckFunctionExists.c.o
-[2/2] Linking C executable cmTC_5693e
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_1e811 && [1/2] Building C object CMakeFiles/cmTC_1e811.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_1e811
 
 
 
 Determining if the function nanosleep exists passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_502bc && [1/2] Building C object CMakeFiles/cmTC_502bc.dir/CheckFunctionExists.c.o
-[2/2] Linking C executable cmTC_502bc
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_ce0b1 && [1/2] Building C object CMakeFiles/cmTC_ce0b1.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_ce0b1
 
 
 
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_ae5c7 && [1/2] Building C object CMakeFiles/cmTC_ae5c7.dir/CheckIncludeFile.c.o
-[2/2] Linking C executable cmTC_ae5c7
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_26601 && [1/2] Building C object CMakeFiles/cmTC_26601.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_26601
 
 
 
 Performing C SOURCE FILE Test HAVE_PTHREAD succeeded with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_1b7a9 && [1/2] Building C object CMakeFiles/cmTC_1b7a9.dir/src.c.o
-[2/2] Linking C executable cmTC_1b7a9
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_1ec1f && [1/2] Building C object CMakeFiles/cmTC_1ec1f.dir/src.c.o
+[2/2] Linking C executable cmTC_1ec1f
 
 
 Source file was:
@@ -769,8 +769,8 @@ int main(void) { return 0; }
 Determining if the pthread_setschedparam exist passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_cb070 && [1/2] Building C object CMakeFiles/cmTC_cb070.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_cb070
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_c775b && [1/2] Building C object CMakeFiles/cmTC_c775b.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c775b
 
 
 File /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -790,8 +790,8 @@ int main(int argc, char** argv)
 Determining if the pthread_setname_np exist passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_5c056 && [1/2] Building C object CMakeFiles/cmTC_5c056.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_5c056
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_374f2 && [1/2] Building C object CMakeFiles/cmTC_374f2.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_374f2
 
 
 File /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -811,8 +811,8 @@ int main(int argc, char** argv)
 Determining if the pthread_mutex_timedlock exist passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_549f4 && [1/2] Building C object CMakeFiles/cmTC_549f4.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_549f4
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_631c6 && [1/2] Building C object CMakeFiles/cmTC_631c6.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_631c6
 
 
 File /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -832,24 +832,24 @@ int main(int argc, char** argv)
 Determining if the include file arm_neon.h exists passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_f3a11 && [1/2] Building C object CMakeFiles/cmTC_f3a11.dir/CheckIncludeFile.c.o
-[2/2] Linking C executable cmTC_f3a11
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_1c92d && [1/2] Building C object CMakeFiles/cmTC_1c92d.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_1c92d
 
 
 
 Determining if files SLES/OpenSLES.h;SLES/OpenSLES_Android.h exist passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_c116d && [1/2] Building C object CMakeFiles/cmTC_c116d.dir/HAVE_SLES_OPENSLES_ANDROID_H.c.o
-[2/2] Linking C executable cmTC_c116d
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_bc228 && [1/2] Building C object CMakeFiles/cmTC_bc228.dir/HAVE_SLES_OPENSLES_ANDROID_H.c.o
+[2/2] Linking C executable cmTC_bc228
 
 
 
 Determining if the slCreateEngine exist in OpenSLES passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_d565c && [1/2] Building C object CMakeFiles/cmTC_d565c.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_d565c
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_ca1fe && [1/2] Building C object CMakeFiles/cmTC_ca1fe.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_ca1fe
 
 
 File /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -866,24 +866,24 @@ int main()
 Determining size of off64_t passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_5e5dd && [1/2] Building C object CMakeFiles/cmTC_5e5dd.dir/OFF64_T.c.o
-[2/2] Linking C executable cmTC_5e5dd
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_ccc2b && [1/2] Building C object CMakeFiles/cmTC_ccc2b.dir/OFF64_T.c.o
+[2/2] Linking C executable cmTC_ccc2b
 
 
 
 Determining if the function fseeko exists passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_75f50 && [1/2] Building C object CMakeFiles/cmTC_75f50.dir/CheckFunctionExists.c.o
-[2/2] Linking C executable cmTC_75f50
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_c7c84 && [1/2] Building C object CMakeFiles/cmTC_c7c84.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_c7c84
 
 
 
 Determining if the include file unistd.h exists passed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_0f42f && [1/2] Building C object CMakeFiles/cmTC_0f42f.dir/CheckIncludeFile.c.o
-[2/2] Linking C executable cmTC_0f42f
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_a0278 && [1/2] Building C object CMakeFiles/cmTC_a0278.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_a0278
 
 
 

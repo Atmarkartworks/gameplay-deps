@@ -18,6 +18,7 @@ android {
                         "-DANDROID=1 -DANDROID_PLATFORM=28 -DCMAKE_BUILD_TYPE=Release",
                         "-DANDROID_ARM_NEON=ON"
                 cppFlags ""
+                targets "GamePlay-deps"
             }
         }
     }

@@ -1,3 +1,0 @@
-/home/c3p/AndroidStudioProjects/testdeps/gameplaydeps/.cxx/Debug/4p315u4q/x86/CMakeFiles/rebuild_cache.dir
-/home/c3p/AndroidStudioProjects/testdeps/gameplaydeps/.cxx/Debug/4p315u4q/x86/CMakeFiles/edit_cache.dir
-/home/c3p/AndroidStudioProjects/testdeps/gameplaydeps/.cxx/Debug/4p315u4q/x86/CMakeFiles/gameplaydeps.dir

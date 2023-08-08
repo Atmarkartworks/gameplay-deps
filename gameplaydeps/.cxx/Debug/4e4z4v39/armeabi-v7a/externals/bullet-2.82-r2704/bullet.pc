@@ -1,6 +1,0 @@
-Name: bullet
-Description: Bullet Continuous Collision Detection and Physics Library
-Requires:
-Version: 2.82
-Libs: -L/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/out/external-deps/lib -lBulletSoftBody -lBulletDynamics -lBulletCollision -lLinearMath
-Cflags:  -I/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/out/external-deps/include

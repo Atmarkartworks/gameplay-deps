@@ -1,3 +1,4 @@
 # ninja log v5
 0	673	1691380345	CMakeFiles/testdeps.dir/native-lib.cpp.o	108cf7485e4514bc
 675	887	1691380345	/home/c3p/GP/gameplay-deps/app/build/intermediates/cxx/Debug/4f483k2t/obj/x86_64/libtestdeps.so	178f93d165845a93
+1	1189	1691450100	/home/c3p/GP/gameplay-deps/app/build/intermediates/cxx/Debug/4f483k2t/obj/x86_64/libtestdeps.so	178f93d165845a93

@@ -144,10 +144,10 @@ BUILD_STATIC_LIBS:BOOL=ON
 BUILD_UNIT_TESTS:BOOL=OFF
 
 //Value Computed by CMake
-BULLET_PHYSICS_BINARY_DIR:STATIC=/home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/arm64-v8a/externals/bullet-2.82-r2704
+BULLET_PHYSICS_BINARY_DIR:STATIC=/home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/arm64-v8a/bullet-2.82-r2704
 
 //Value Computed by CMake
-BULLET_PHYSICS_SOURCE_DIR:STATIC=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/bullet-2.82-r2704
+BULLET_PHYSICS_SOURCE_DIR:STATIC=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/bullet-2.82-r2704
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-addr2line
@@ -360,7 +360,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=gameplaydeps
+CMAKE_PROJECT_NAME:STATIC=GamePlay-deps
 
 //Ranlib
 CMAKE_RANLIB:FILEPATH=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib
@@ -448,34 +448,34 @@ FLUIDSYNTH_INCLUDE_DIR:PATH=FLUIDSYNTH_INCLUDE_DIR-NOTFOUND
 FLUIDSYNTH_LIBRARIES:FILEPATH=FLUIDSYNTH_LIBRARIES-NOTFOUND
 
 //Value Computed by CMake
-GamePlay-deps_BINARY_DIR:STATIC=/home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/arm64-v8a/externals
+GamePlay-deps_BINARY_DIR:STATIC=/home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/arm64-v8a
 
 //Value Computed by CMake
-GamePlay-deps_SOURCE_DIR:STATIC=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals
+GamePlay-deps_SOURCE_DIR:STATIC=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp
 
 //The subdirectory to the header prefix
-INCLUDE_INSTALL_DIR:PATH=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/out/external-deps/include
+INCLUDE_INSTALL_DIR:PATH=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/out/external-deps/include
 
 //Installation directory for executables
-INSTALL_BIN_DIR:PATH=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/out/external-deps/bin
+INSTALL_BIN_DIR:PATH=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/out/external-deps/bin
 
 //Set when you want extra libraries installed
 INSTALL_EXTRA_LIBS:BOOL=OFF
 
 //Installation directory for headers
-INSTALL_INC_DIR:PATH=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/out/external-deps/include
+INSTALL_INC_DIR:PATH=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/out/external-deps/include
 
 //Set when you want to install libraries
 INSTALL_LIBS:BOOL=ON
 
 //Installation directory for libraries
-INSTALL_LIB_DIR:PATH=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/out/external-deps/lib
+INSTALL_LIB_DIR:PATH=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/out/external-deps/lib
 
 //Installation directory for manual pages
-INSTALL_MAN_DIR:PATH=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/out/external-deps/share/man
+INSTALL_MAN_DIR:PATH=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/out/external-deps/share/man
 
 //Installation directory for pkgconfig (.pc) files
-INSTALL_PKGCONFIG_DIR:PATH=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/out/external-deps/share/pkgconfig
+INSTALL_PKGCONFIG_DIR:PATH=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/out/external-deps/share/pkgconfig
 
 //Internal update serialization structures
 INTERNAL_UPDATE_SERIALIZATION_STRUCTURES:BOOL=OFF
@@ -484,7 +484,7 @@ INTERNAL_UPDATE_SERIALIZATION_STRUCTURES:BOOL=OFF
 LIBRARY_OUTPUT_PATH:PATH=
 
 //Library directory name
-LIB_DESTINATION:STRING=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/out/external-deps/lib
+LIB_DESTINATION:STRING=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/out/external-deps/lib
 
 //Define suffix of directory name (32/64)
 LIB_SUFFIX:STRING=
@@ -523,13 +523,13 @@ OPENGL_xmesa_INCLUDE_DIR:PATH=OPENGL_xmesa_INCLUDE_DIR-NOTFOUND
 OSS_INCLUDE_DIR:PATH=OSS_INCLUDE_DIR-NOTFOUND
 
 //Value Computed by CMake
-OpenAL_BINARY_DIR:STATIC=/home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/arm64-v8a/externals/openal-1.16.0
+OpenAL_BINARY_DIR:STATIC=/home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/arm64-v8a/openal-1.16.0
 
 //Value Computed by CMake
-OpenAL_SOURCE_DIR:STATIC=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/openal-1.16.0
+OpenAL_SOURCE_DIR:STATIC=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/openal-1.16.0
 
 //Base directory for pkgconfig files
-PKGCONFIG_INSTALL_PREFIX:STRING=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/out/external-deps/lib/pkgconfig/
+PKGCONFIG_INSTALL_PREFIX:STRING=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/out/external-deps/lib/pkgconfig/
 
 //Disable ANSI-C prototypes
 PNGARG:BOOL=OFF
@@ -583,19 +583,10 @@ USE_MSVC_INCREMENTAL_LINKING:BOOL=OFF
 USE_MSVC_RUNTIME_LIBRARY_DLL:BOOL=ON
 
 //Value Computed by CMake
-gameplaydeps_BINARY_DIR:STATIC=/home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/arm64-v8a
+libpng_BINARY_DIR:STATIC=/home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/arm64-v8a/png-1.6.15
 
 //Value Computed by CMake
-gameplaydeps_SOURCE_DIR:STATIC=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp
-
-//Value Computed by CMake
-libpng_BINARY_DIR:STATIC=/home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/arm64-v8a/externals/png-1.6.15
-
-//Value Computed by CMake
-libpng_SOURCE_DIR:STATIC=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/png-1.6.15
-
-//Path to a library.
-log-lib:FILEPATH=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/23/liblog.so
+libpng_SOURCE_DIR:STATIC=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/png-1.6.15
 
 //Dependencies for the target
 openal_LIB_DEPENDS:STATIC=general;common;general;OpenSLES;general;dl;general;m;general;-pthread;
@@ -604,16 +595,16 @@ openal_LIB_DEPENDS:STATIC=general;common;general;OpenSLES;general;dl;general;m;g
 png_static_LIB_DEPENDS:STATIC=general;/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/23/libm.so;
 
 //Value Computed by CMake
-tinyxml2_BINARY_DIR:STATIC=/home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/arm64-v8a/externals/tinyxml2-2.1.0
+tinyxml2_BINARY_DIR:STATIC=/home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/arm64-v8a/tinyxml2-2.1.0
 
 //Value Computed by CMake
-tinyxml2_SOURCE_DIR:STATIC=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/tinyxml2-2.1.0
+tinyxml2_SOURCE_DIR:STATIC=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/tinyxml2-2.1.0
 
 //Value Computed by CMake
-zlib_BINARY_DIR:STATIC=/home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/arm64-v8a/externals/zlib-1.2.8
+zlib_BINARY_DIR:STATIC=/home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/arm64-v8a/zlib-1.2.8
 
 //Value Computed by CMake
-zlib_SOURCE_DIR:STATIC=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/zlib-1.2.8
+zlib_SOURCE_DIR:STATIC=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/zlib-1.2.8
 
 
 ########################
@@ -767,7 +758,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=19
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=18
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -995,5 +986,5 @@ SOUNDIO_LIBRARY-ADVANCED:INTERNAL=1
 //Have include unistd.h
 Z_HAVE_UNISTD_H:INTERNAL=1
 //CMAKE_INSTALL_PREFIX during last run
-_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/externals/out/external-deps
+_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/home/c3p/GP/gameplay-deps/gameplaydeps/src/main/cpp/out/external-deps
 

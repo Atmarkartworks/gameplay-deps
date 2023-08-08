@@ -1,9 +1,9 @@
 Determining if the include file io.h exists failed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_61fc9 && [1/2] Building C object CMakeFiles/cmTC_61fc9.dir/CheckIncludeFile.c.o
-FAILED: CMakeFiles/cmTC_61fc9.dir/CheckIncludeFile.c.o 
-/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -std=c99 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES -fPIE -MD -MT CMakeFiles/cmTC_61fc9.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_61fc9.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_61fc9.dir/CheckIncludeFile.c.o -c CheckIncludeFile.c
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_7ba5e && [1/2] Building C object CMakeFiles/cmTC_7ba5e.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_7ba5e.dir/CheckIncludeFile.c.o 
+/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -std=c99 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES -fPIE -MD -MT CMakeFiles/cmTC_7ba5e.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_7ba5e.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_7ba5e.dir/CheckIncludeFile.c.o -c CheckIncludeFile.c
 CheckIncludeFile.c:1:10: fatal error: 'io.h' file not found
 #include <io.h>
          ^~~~~~
@@ -15,9 +15,9 @@ ninja: build stopped: subcommand failed.
 Determining if the include file cpuid.h exists failed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_fcdce && [1/2] Building C object CMakeFiles/cmTC_fcdce.dir/CheckIncludeFile.c.o
-FAILED: CMakeFiles/cmTC_fcdce.dir/CheckIncludeFile.c.o 
-/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -std=c99 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES -fPIE -MD -MT CMakeFiles/cmTC_fcdce.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_fcdce.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_fcdce.dir/CheckIncludeFile.c.o -c CheckIncludeFile.c
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_13e92 && [1/2] Building C object CMakeFiles/cmTC_13e92.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_13e92.dir/CheckIncludeFile.c.o 
+/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -std=c99 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES -fPIE -MD -MT CMakeFiles/cmTC_13e92.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_13e92.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_13e92.dir/CheckIncludeFile.c.o -c CheckIncludeFile.c
 In file included from CheckIncludeFile.c:1:
 /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/include/cpuid.h:14:2: error: this header is for x86 only
 #error this header is for x86 only
@@ -48,9 +48,9 @@ ninja: build stopped: subcommand failed.
 Determining if the include file intrin.h exists failed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_a4603 && [1/2] Building C object CMakeFiles/cmTC_a4603.dir/CheckIncludeFile.c.o
-FAILED: CMakeFiles/cmTC_a4603.dir/CheckIncludeFile.c.o 
-/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -std=c99 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES -fPIE -MD -MT CMakeFiles/cmTC_a4603.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_a4603.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_a4603.dir/CheckIncludeFile.c.o -c CheckIncludeFile.c
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_82dcc && [1/2] Building C object CMakeFiles/cmTC_82dcc.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_82dcc.dir/CheckIncludeFile.c.o 
+/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -std=c99 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES -fPIE -MD -MT CMakeFiles/cmTC_82dcc.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_82dcc.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_82dcc.dir/CheckIncludeFile.c.o -c CheckIncludeFile.c
 In file included from CheckIncludeFile.c:1:
 /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/include/intrin.h:12:15: fatal error: 'intrin.h' file not found
 #include_next <intrin.h>
@@ -63,9 +63,9 @@ ninja: build stopped: subcommand failed.
 Determining if the include file ieeefp.h exists failed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_1aaab && [1/2] Building C object CMakeFiles/cmTC_1aaab.dir/CheckIncludeFile.c.o
-FAILED: CMakeFiles/cmTC_1aaab.dir/CheckIncludeFile.c.o 
-/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -std=c99 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES -fPIE -MD -MT CMakeFiles/cmTC_1aaab.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_1aaab.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_1aaab.dir/CheckIncludeFile.c.o -c CheckIncludeFile.c
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_ab8e9 && [1/2] Building C object CMakeFiles/cmTC_ab8e9.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_ab8e9.dir/CheckIncludeFile.c.o 
+/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -std=c99 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES -fPIE -MD -MT CMakeFiles/cmTC_ab8e9.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_ab8e9.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_ab8e9.dir/CheckIncludeFile.c.o -c CheckIncludeFile.c
 CheckIncludeFile.c:1:10: fatal error: 'ieeefp.h' file not found
 #include <ieeefp.h>
          ^~~~~~~~~~
@@ -77,9 +77,9 @@ ninja: build stopped: subcommand failed.
 Determining if the include file guiddef.h exists failed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_173e1 && [1/2] Building C object CMakeFiles/cmTC_173e1.dir/CheckIncludeFile.c.o
-FAILED: CMakeFiles/cmTC_173e1.dir/CheckIncludeFile.c.o 
-/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -std=c99 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES -fPIE -MD -MT CMakeFiles/cmTC_173e1.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_173e1.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_173e1.dir/CheckIncludeFile.c.o -c CheckIncludeFile.c
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_1fe0e && [1/2] Building C object CMakeFiles/cmTC_1fe0e.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_1fe0e.dir/CheckIncludeFile.c.o 
+/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -std=c99 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES -fPIE -MD -MT CMakeFiles/cmTC_1fe0e.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_1fe0e.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_1fe0e.dir/CheckIncludeFile.c.o -c CheckIncludeFile.c
 CheckIncludeFile.c:1:10: fatal error: 'guiddef.h' file not found
 #include <guiddef.h>
          ^~~~~~~~~~~
@@ -91,9 +91,9 @@ ninja: build stopped: subcommand failed.
 Determining if the include file initguid.h exists failed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_93583 && [1/2] Building C object CMakeFiles/cmTC_93583.dir/CheckIncludeFile.c.o
-FAILED: CMakeFiles/cmTC_93583.dir/CheckIncludeFile.c.o 
-/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -std=c99 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES -fPIE -MD -MT CMakeFiles/cmTC_93583.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_93583.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_93583.dir/CheckIncludeFile.c.o -c CheckIncludeFile.c
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_55f85 && [1/2] Building C object CMakeFiles/cmTC_55f85.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_55f85.dir/CheckIncludeFile.c.o 
+/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -std=c99 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES -fPIE -MD -MT CMakeFiles/cmTC_55f85.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_55f85.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_55f85.dir/CheckIncludeFile.c.o -c CheckIncludeFile.c
 CheckIncludeFile.c:1:10: fatal error: 'initguid.h' file not found
 #include <initguid.h>
          ^~~~~~~~~~~~
@@ -105,9 +105,9 @@ ninja: build stopped: subcommand failed.
 Determining if the aligned_alloc exist failed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_117c8 && [1/2] Building C object CMakeFiles/cmTC_117c8.dir/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_117c8.dir/CheckSymbolExists.c.o 
-/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -std=c99 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES -fPIE -MD -MT CMakeFiles/cmTC_117c8.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_117c8.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_117c8.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_99649 && [1/2] Building C object CMakeFiles/cmTC_99649.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_99649.dir/CheckSymbolExists.c.o 
+/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -std=c99 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES -fPIE -MD -MT CMakeFiles/cmTC_99649.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_99649.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_99649.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
 CheckSymbolExists.c:8:19: error: use of undeclared identifier 'aligned_alloc'
   return ((int*)(&aligned_alloc))[argc];
                   ^
@@ -132,9 +132,9 @@ int main(int argc, char** argv)
 Determining if the _aligned_malloc exist failed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_5bcde && [1/2] Building C object CMakeFiles/cmTC_5bcde.dir/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_5bcde.dir/CheckSymbolExists.c.o 
-/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -std=c99 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES -fPIE -MD -MT CMakeFiles/cmTC_5bcde.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_5bcde.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_5bcde.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_0d00a && [1/2] Building C object CMakeFiles/cmTC_0d00a.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_0d00a.dir/CheckSymbolExists.c.o 
+/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -std=c99 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES -fPIE -MD -MT CMakeFiles/cmTC_0d00a.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_0d00a.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_0d00a.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
 CheckSymbolExists.c:8:19: error: use of undeclared identifier '_aligned_malloc'
   return ((int*)(&_aligned_malloc))[argc];
                   ^
@@ -159,9 +159,9 @@ int main(int argc, char** argv)
 Determining if the _controlfp exist failed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_cb0e7 && [1/2] Building C object CMakeFiles/cmTC_cb0e7.dir/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_cb0e7.dir/CheckSymbolExists.c.o 
-/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -std=c99 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES -fPIE -MD -MT CMakeFiles/cmTC_cb0e7.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_cb0e7.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_cb0e7.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_02ecb && [1/2] Building C object CMakeFiles/cmTC_02ecb.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_02ecb.dir/CheckSymbolExists.c.o 
+/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -std=c99 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES -fPIE -MD -MT CMakeFiles/cmTC_02ecb.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_02ecb.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_02ecb.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
 CheckSymbolExists.c:8:19: error: use of undeclared identifier '_controlfp'
   return ((int*)(&_controlfp))[argc];
                   ^
@@ -186,9 +186,9 @@ int main(int argc, char** argv)
 Determining if the __control87_2 exist failed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_15c47 && [1/2] Building C object CMakeFiles/cmTC_15c47.dir/CheckSymbolExists.c.o
-FAILED: CMakeFiles/cmTC_15c47.dir/CheckSymbolExists.c.o 
-/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -std=c99 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES -fPIE -MD -MT CMakeFiles/cmTC_15c47.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_15c47.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_15c47.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_c31cb && [1/2] Building C object CMakeFiles/cmTC_c31cb.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_c31cb.dir/CheckSymbolExists.c.o 
+/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -std=c99 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES -fPIE -MD -MT CMakeFiles/cmTC_c31cb.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_c31cb.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_c31cb.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
 CheckSymbolExists.c:8:19: error: use of undeclared identifier '__control87_2'
   return ((int*)(&__control87_2))[argc];
                   ^
@@ -213,9 +213,9 @@ int main(int argc, char** argv)
 Determining if the include file windows.h exists failed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_fe75e && [1/2] Building C object CMakeFiles/cmTC_fe75e.dir/CheckIncludeFile.c.o
-FAILED: CMakeFiles/cmTC_fe75e.dir/CheckIncludeFile.c.o 
-/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -std=c99 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -D_WIN32_WINNT=0x0502  -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES -fPIE -MD -MT CMakeFiles/cmTC_fe75e.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_fe75e.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_fe75e.dir/CheckIncludeFile.c.o -c CheckIncludeFile.c
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_9b944 && [1/2] Building C object CMakeFiles/cmTC_9b944.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_9b944.dir/CheckIncludeFile.c.o 
+/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -std=c99 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -D_WIN32_WINNT=0x0502  -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES -fPIE -MD -MT CMakeFiles/cmTC_9b944.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_9b944.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_9b944.dir/CheckIncludeFile.c.o -c CheckIncludeFile.c
 CheckIncludeFile.c:1:10: fatal error: 'windows.h' file not found
 #include <windows.h>
          ^~~~~~~~~~~
@@ -227,9 +227,9 @@ ninja: build stopped: subcommand failed.
 Determining if files pthread.h;pthread_np.h exist failed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_ef5ff && [1/2] Building C object CMakeFiles/cmTC_ef5ff.dir/HAVE_PTHREAD_NP_H.c.o
-FAILED: CMakeFiles/cmTC_ef5ff.dir/HAVE_PTHREAD_NP_H.c.o 
-/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -std=c99 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES -fPIE -MD -MT CMakeFiles/cmTC_ef5ff.dir/HAVE_PTHREAD_NP_H.c.o -MF CMakeFiles/cmTC_ef5ff.dir/HAVE_PTHREAD_NP_H.c.o.d -o CMakeFiles/cmTC_ef5ff.dir/HAVE_PTHREAD_NP_H.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/arm64-v8a/CMakeFiles/CheckIncludeFiles/HAVE_PTHREAD_NP_H.c
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_3bc4d && [1/2] Building C object CMakeFiles/cmTC_3bc4d.dir/HAVE_PTHREAD_NP_H.c.o
+FAILED: CMakeFiles/cmTC_3bc4d.dir/HAVE_PTHREAD_NP_H.c.o 
+/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -std=c99 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES -fPIE -MD -MT CMakeFiles/cmTC_3bc4d.dir/HAVE_PTHREAD_NP_H.c.o -MF CMakeFiles/cmTC_3bc4d.dir/HAVE_PTHREAD_NP_H.c.o.d -o CMakeFiles/cmTC_3bc4d.dir/HAVE_PTHREAD_NP_H.c.o -c /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/arm64-v8a/CMakeFiles/CheckIncludeFiles/HAVE_PTHREAD_NP_H.c
 /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/arm64-v8a/CMakeFiles/CheckIncludeFiles/HAVE_PTHREAD_NP_H.c:3:10: fatal error: 'pthread_np.h' file not found
 #include <pthread_np.h>
          ^~~~~~~~~~~~~~
@@ -248,10 +248,10 @@ int main(void){return 0;}
 Determining if the function pthread_create exists in the pthread failed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_7ec05 && [1/2] Building C object CMakeFiles/cmTC_7ec05.dir/CheckFunctionExists.c.o
-[2/2] Linking C executable cmTC_7ec05
-FAILED: cmTC_7ec05 
-: && /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot -std=c99 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DCHECK_FUNCTION_EXISTS=pthread_create  -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES -pthread -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_7ec05.dir/CheckFunctionExists.c.o -o cmTC_7ec05  -lpthread  -lm  -latomic -lm && :
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_db93f && [1/2] Building C object CMakeFiles/cmTC_db93f.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_db93f
+FAILED: cmTC_db93f 
+: && /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot -std=c99 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DCHECK_FUNCTION_EXISTS=pthread_create  -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES -pthread -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_db93f.dir/CheckFunctionExists.c.o -o cmTC_db93f  -lpthread  -lm  -latomic -lm && :
 ld: error: unable to find library -lpthread
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 ninja: build stopped: subcommand failed.
@@ -261,10 +261,10 @@ ninja: build stopped: subcommand failed.
 Determining if the function clock_gettime exists in the rt failed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_7f5d2 && [1/2] Building C object CMakeFiles/cmTC_7f5d2.dir/CheckFunctionExists.c.o
-[2/2] Linking C executable cmTC_7f5d2
-FAILED: cmTC_7f5d2 
-: && /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot -std=c99 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DCHECK_FUNCTION_EXISTS=clock_gettime  -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES -pthread -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_7f5d2.dir/CheckFunctionExists.c.o -o cmTC_7f5d2  -lrt  -lm  -latomic -lm && :
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_5a73e && [1/2] Building C object CMakeFiles/cmTC_5a73e.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_5a73e
+FAILED: cmTC_5a73e 
+: && /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot -std=c99 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -DCHECK_FUNCTION_EXISTS=clock_gettime  -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES -pthread -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_5a73e.dir/CheckFunctionExists.c.o -o cmTC_5a73e  -lrt  -lm  -latomic -lm && :
 ld: error: unable to find library -lrt
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 ninja: build stopped: subcommand failed.
@@ -274,9 +274,9 @@ ninja: build stopped: subcommand failed.
 Determining if the include file xmmintrin.h exists failed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_c7837 && [1/2] Building C object CMakeFiles/cmTC_c7837.dir/CheckIncludeFile.c.o
-FAILED: CMakeFiles/cmTC_c7837.dir/CheckIncludeFile.c.o 
-/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -std=c99 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -msse  -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES -pthread -fPIE -MD -MT CMakeFiles/cmTC_c7837.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_c7837.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_c7837.dir/CheckIncludeFile.c.o -c CheckIncludeFile.c
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_23f8e && [1/2] Building C object CMakeFiles/cmTC_23f8e.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_23f8e.dir/CheckIncludeFile.c.o 
+/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -std=c99 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -msse  -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES -pthread -fPIE -MD -MT CMakeFiles/cmTC_23f8e.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_23f8e.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_23f8e.dir/CheckIncludeFile.c.o -c CheckIncludeFile.c
 clang: warning: argument unused during compilation: '-msse' [-Wunused-command-line-argument]
 In file included from CheckIncludeFile.c:1:
 In file included from /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/include/xmmintrin.h:13:
@@ -346,9 +346,9 @@ ninja: build stopped: subcommand failed.
 Determining if the include file emmintrin.h exists failed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_4e097 && [1/2] Building C object CMakeFiles/cmTC_4e097.dir/CheckIncludeFile.c.o
-FAILED: CMakeFiles/cmTC_4e097.dir/CheckIncludeFile.c.o 
-/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -std=c99 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -msse2  -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES -pthread -fPIE -MD -MT CMakeFiles/cmTC_4e097.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_4e097.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_4e097.dir/CheckIncludeFile.c.o -c CheckIncludeFile.c
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_04af9 && [1/2] Building C object CMakeFiles/cmTC_04af9.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_04af9.dir/CheckIncludeFile.c.o 
+/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -std=c99 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -msse2  -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES -pthread -fPIE -MD -MT CMakeFiles/cmTC_04af9.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_04af9.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_04af9.dir/CheckIncludeFile.c.o -c CheckIncludeFile.c
 clang: warning: argument unused during compilation: '-msse2' [-Wunused-command-line-argument]
 In file included from CheckIncludeFile.c:1:
 In file included from /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/include/emmintrin.h:13:
@@ -419,9 +419,9 @@ ninja: build stopped: subcommand failed.
 Determining if the include file smmintrin.h exists failed with the following output:
 Change Dir: /home/c3p/GP/gameplay-deps/gameplaydeps/.cxx/Debug/4e4z4v39/arm64-v8a/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_38453 && [1/2] Building C object CMakeFiles/cmTC_38453.dir/CheckIncludeFile.c.o
-FAILED: CMakeFiles/cmTC_38453.dir/CheckIncludeFile.c.o 
-/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -std=c99 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -msse4.1  -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES -pthread -fPIE -MD -MT CMakeFiles/cmTC_38453.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_38453.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_38453.dir/CheckIncludeFile.c.o -c CheckIncludeFile.c
+Run Build Command(s):/home/c3p/Android/Sdk/cmake/3.18.1/bin/ninja cmTC_ebe62 && [1/2] Building C object CMakeFiles/cmTC_ebe62.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_ebe62.dir/CheckIncludeFile.c.o 
+/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -std=c99 -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -msse4.1  -D_GNU_SOURCE=1 -D_POSIX_C_SOURCE=200809L -D_XOPEN_SOURCE=700 -D_LARGEFILE_SOURCE -D_LARGE_FILES -pthread -fPIE -MD -MT CMakeFiles/cmTC_ebe62.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_ebe62.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_ebe62.dir/CheckIncludeFile.c.o -c CheckIncludeFile.c
 clang: warning: argument unused during compilation: '-msse4.1' [-Wunused-command-line-argument]
 In file included from CheckIncludeFile.c:1:
 In file included from /home/c3p/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/12.0.8/include/smmintrin.h:13:
