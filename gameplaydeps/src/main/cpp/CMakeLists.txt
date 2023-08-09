@@ -17,7 +17,7 @@ endif(NOT ANDROID AND NOT IOS)
 
 set(CMAKE_INSTALL_PREFIX "${PROJECT_SOURCE_DIR}/out/external-deps")
 
-#if(NOT ANDROID AND NOT IOS)
+if(NOT ANDROID AND NOT IOS)
     # Android and iOS toolchains will set their own output path
     IF(APPLE)
         set(LIBRARY_OUTPUT_PATH "${PROJECT_SOURCE_DIR}/out/external-deps/lib/macosx/${ARCH}")
@@ -25,7 +25,7 @@ set(CMAKE_INSTALL_PREFIX "${PROJECT_SOURCE_DIR}/out/external-deps")
         string(TOLOWER ${CMAKE_SYSTEM_NAME} LOWER_SYSTEM_NAME)
         set(LIBRARY_OUTPUT_PATH "${PROJECT_SOURCE_DIR}/out/external-deps/lib/${LOWER_SYSTEM_NAME}/${ARCH}")
     ENDIF(APPLE)
-#endif(NOT ANDROID AND NOT IOS)
+endif(NOT ANDROID AND NOT IOS)
 
 IF(NOT WIN32)
     # For Windows, let the user pick since we need to generate both Debug and
@@ -33,7 +33,15 @@ IF(NOT WIN32)
     SET(CMAKE_BUILD_TYPE "Release")
 ENDIF(NOT WIN32)
 
-file(MAKE_DIRECTORY ${LIBRARY_OUTPUT_PATH})
+if (ANDROID)
+    string(TOLOWER ${CMAKE_SYSTEM_NAME} LOWER_SYSTEM_NAME)
+    #set(LIBRARY_OUTPUT_PATH "${CMAKE_BINARY_DIR}")
+    set(BINARY_OUTPUT_PATH "${PROJECT_SOURCE_DIR}/../../../../libs/${LOWER_SYSTEM_NAME}/${CMAKE_ANDROID_ARCH_ABI}")
+    file(MAKE_DIRECTORY ${BINARY_OUTPUT_PATH})
+    set(LIBRARY_OUTPUT_PATH "${BINARY_OUTPUT_PATH}")
+else (ANDROID)
+    file(MAKE_DIRECTORY ${LIBRARY_OUTPUT_PATH})
+endif (ANDROID)
 message(STATUS "Directory: ${LIBRARY_OUTPUT_PATH}")
 
 add_subdirectory(libjson-7.6.1)

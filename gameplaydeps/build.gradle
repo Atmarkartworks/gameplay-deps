@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace 'com.gyabinet.gameplaydeps'
-    compileSdk 29
+    compileSdk 33
 
     defaultConfig {
         minSdk 23
@@ -17,33 +17,23 @@ android {
                 arguments "-DCMAKE_SYSTEM_NAME=ANDROID",
                         "-DANDROID=1 -DANDROID_PLATFORM=28 -DCMAKE_BUILD_TYPE=Release",
                         "-DANDROID_ARM_NEON=ON"
-                cppFlags ""
-                //targets "GamePlay-deps"
-                targets "gameplay-deps" /*
-                targets "OpenAL"
-                //targets "openal"
-                //targets "BulletDynamics"
-                //targets "LinearMath"
-                //targets "BulletCollision"
-                targets "vorbisfile"
-                targets "vorbisenc"
-                targets "vorbis"
-                targets "ogg"
-                targets "png_static"
-                targets "zlibstatic"
-                targets "lua"
-                targets "tinyxml2static"
-                targets "json"
-                targets "base64" */
+                cppFlags  "-Wno-ignored-optimization-argument", "-fexceptions", "-frtti"
 
+                targets "gameplay-deps"
             }
+
         }
     }
 
     buildTypes {
         release {
+            debuggable false
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            //applicationIdSuffix ".debug"
+            debuggable true
         }
     }
     externalNativeBuild {
@@ -57,7 +47,7 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
     ndkVersion '22.0.7026061'
-    buildToolsVersion '30.0.3'
+    buildToolsVersion '33.0.2'
 }
 
 dependencies {

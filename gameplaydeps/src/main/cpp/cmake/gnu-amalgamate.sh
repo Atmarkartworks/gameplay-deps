@@ -48,6 +48,8 @@ cat $MRI
 # Now actually do something
 $AR -M < $MRI
 
+#cp libgameplay-deps.a "$3"
+
 # Clean up
 rm $MRI
 rm -rf ./tmp
