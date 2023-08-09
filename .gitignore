@@ -2,6 +2,7 @@ build/
 out/
 .cxx/
 .idea/
+.gradle/
 *.swp
 .DS_Store
 
