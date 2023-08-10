@@ -15,7 +15,11 @@ android {
         externalNativeBuild {
             cmake {
                 arguments "-DCMAKE_SYSTEM_NAME=ANDROID",
-                        "-DANDROID=1 -DANDROID_PLATFORM=28 -DCMAKE_BUILD_TYPE=Release",
+                        "-DANDROID=1",
+                        "-DANDROID_PLATFORM=19",
+                        "-D__ANDROID_API__=19",
+                        "-DANDROID_DEPRECATED_HEADERS=ON",
+                        "-DCMAKE_BUILD_TYPE=Release",
                         "-DANDROID_ARM_NEON=ON"
                 cppFlags  "-Wno-ignored-optimization-argument", "-fexceptions", "-frtti"
 

@@ -47,10 +47,13 @@ message(STATUS "Directory: ${LIBRARY_OUTPUT_PATH}")
 add_subdirectory(libjson-7.6.1)
 add_subdirectory(tinyxml2-2.1.0)
 add_subdirectory(lua-5.2.3)
+add_subdirectory(freetype-2.13.1)
 
 if (NOT APPLE)
 #    add_subdirectory(openal-1.16.0)
     add_subdirectory(openal-soft-1.23.1)
+    set_target_properties(OpenAL PROPERTIES LIBRARY_OUTPUT_DIRECTORY  ${LIBRARY_OUTPUT_PATH})
+    set_target_properties(OpenAL PROPERTIES IMPORTED_LOCATION ${LIBRARY_OUTPUT_PATH}/libOpenAL.so )
 endif(NOT APPLE)
 
 if (NOT APPLE AND NOT ANDROID)
@@ -59,7 +62,8 @@ endif (NOT APPLE AND NOT ANDROID)
 
 # zlib must be built before png and curl
 add_subdirectory(zlib-1.2.8)
-add_subdirectory(png-1.6.15)
+#Wadd_subdirectory(png-1.6.15)
+add_subdirectory(libpng-1.6.40)
 
 if(NOT WIN32 AND BUILD_EXTRA_LIBS)
     add_subdirectory(curl-7.39.0)
@@ -73,6 +77,10 @@ add_subdirectory(bullet-2.82-r2704)
 add_subdirectory(base64-1.0.0)
 
 set(BUILD_TARGETS
+    ex-common
+    common
+#    OpenAL
+    freetype
     BulletDynamics
     LinearMath
     BulletCollision
@@ -128,7 +136,6 @@ else()
     )
 endif(LINUX OR ANDROID)
 
-#add_library(gameplay-deps gameplaydeps.cpp)
 
 add_custom_target(gameplay-deps ALL DEPENDS ${GAMEPLAY_DEPS})
 add_dependencies(gameplay-deps ${BUILD_TARGETS})
